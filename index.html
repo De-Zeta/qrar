@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <title>Mi primer prototipo HTML</title>
+</head>
+
+<body>
+    <div id="alert">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+        </symbol>
+      </svg>
+      <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <button type="button" class="btn-close" aria-label="Close" onclick="document.getElementById('alert').style.display='none'" ></button>
+        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+        <div>
+            <strong>¡Paciencia!</strong> Web en construcción 
+        </div>
+      </div>
+    </div>
+
+    <header>
+            <div class=logo>
+            <img src="./images/qrar.png" alt="qrar logo" class="qrar" id="subir"> <!-- Titulo -->
+            </div>
+
+            <nav>
+                <ul class="list"> <!-- Menu de navegacion -->
+                    <li class="subMenu"><a> Menu </a>
+                        <ul class="subList">
+                            <li class="subItem"><a href="./index.html"> Home </a></li>
+                            <li class="subItem"><a href="./pages/Contacto.html"> Contacto </a></li>
+                            <li class="subItem"><a href="./pages/Historia.html"> Historia </a></li>
+                            <li class="subItem"><a href="./pages/Quees.html"> Que es? </a></li>
+                            <li class="subItem"><a href="./pages/Pinta.html"> Ganate una pinta </a></li>
+                        </ul>
+                    </li>
+                    <li class="itemList"><a href="./Prototipo-IndexQR.html"> Home </a></li>
+                    <li class="itemList"><a href="./pages/Contacto.html"> Contacto </a></li>
+                    <li class="itemList"><a href="./pages/Historia.html"> Historia </a></li>
+                    <li class="itemList"><a href="./pages/Quees.html"> Que es? </a></li>
+                    <li class="itemList"><a href="./pages/Pinta.html"> Ganate una pinta </a></li>
+                    
+                </ul>
+            </nav>
+    </header>
+    
+        <main> <!-- Container padre  -->
+
+
+                <div class="app-container"> <!-- Container: app JS  -->
+
+                <h1> Genera tu codigo</h1>
+                <input type="text" placeholder="Tu link"> </input>
+                 <!-- app JS  -->
+                    <img src="./images/QRCode.png" alt="qr" class="qrimg">
+                    <button type="button" class="btn btn-dark buton">Crear</button>
+                    <button type="button" class="btn btn-dark buton">Imprimir</button>
+                </div>
+
+
+                <div class="contador-container">
+
+                    <h1> Contador</h1> <!-- Container: contador  -->
+                        <h3> 300 </h3> 
+                        <p> QR generados! </p> <!-- contador  -->
+
+                </div>
+
+
+            <div class="menu-container"> <!-- Container: Menu - 'Que es?' -->
+                <p>
+                    <a class="btn btn-dark butonMenu" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Que es un codigo QR?</a>
+                    <button class="btn btn-dark butonMenu" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">QR vs barras</button>
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="menu-container">
+                            <p>Un <strong>código QR</strong> (del inglés Quick Response code, 'código de respuesta rápida') es la evolución del código de barras. Es un módulo para almacenar información en una matriz de puntos o en un código de barras bidimensional. La matriz se lee en el dispositivo móvil por un lector específico (lector de QR) y de forma inmediata nos lleva a una aplicación en internet y puede ser un mapa de localización, un correo electrónico, una página web o un perfil en una red social.</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="menu-container">
+                            <table>
+                                <tr>
+                                    <th></th>
+                                    <th> Codigo QR </th>
+                                    <th> Codigo de barras </th>
+                                </tr>
+                                <tr>
+                                    <td><strong> Capacidad </strong></td>
+                                    <td> 7089 caracteres</td>
+                                    <td> 106 caracteres </td>
+                                </tr>
+                                <tr>
+                                    <td><strong> Accesibilidad </strong></td>
+                                    <td> Pueden ser leídos por teléfonos inteligentes, tablets y computadoras. </td>
+                                    <td> Solo pueden ser leídos por lectores de código de barras </td>
+                                </tr>
+                                <tr>
+                                    <td><strong> Aceptacion masiva </strong></td>
+                                    <td>
+                                        <ol>
+                                            <li> Redes sociales </li>
+                                            <li> Webs </li>
+                                            <li> Apps </li>
+                        
+                                        </ol>
+                                    </td>
+                                    <td> 
+                                        <ol>
+                                            <li> Logistica </li>
+                                            <li> Comercial </li>
+                                            <li> Packaging </li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                        
+                        </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </main>
+
+
+        <footer> <!-- footer -->
+
+            <div class="redes"> 
+
+                <a href=#subir>Subir al cielo</a>
+
+                    <ul> <!-- Nav de footer -->
+                        <li><a href='https://www.instagram.com'><img src="./images/ig.svg" alt="ig" class="igimg"></a></li>
+                        <li><a href='https://www.facebook.com'><img src="./images/fb.svg" alt="fb" class="fbimg"></a></li>
+                    </ul>
+
+            </div>
+
+        </footer>   
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+footer {
+    display: grid;
+    grid-area: footer;
+    border-radius: 1rem;
+    background: rgba( 44, 4, 76, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.redes  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    color: #03dac5;
+    font-size: 1rem;
+    border-radius: 3rem;
+    
+
+}
+
+.redes ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+}
+
+.redes a {
+
+    text-decoration: none;
+    color: #03dac5;
+    align-content: center;
+    margin-top: 3rem;
+    -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
+    filter: drop-shadow( #FF0080); 
+    
+}
+
+.igimg {
+    width: 1.5rem;
+    -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
+    filter: drop-shadow( #FF0080); 
+}
+
+.igimg:hover {
+    -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
+    filter: none; 
+    -webkit-animation: flash 4s;
+    animation: flash 4s;
+}
+
+
+.fbimg {
+    width: 1.5rem;
+    -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
+    filter: drop-shadow( #FF0080); 
+}
+
+.fbimg:hover {
+    -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
+    filter: none; 
+    -webkit-animation: flash 4s;
+    animation: flash 4s;
+}

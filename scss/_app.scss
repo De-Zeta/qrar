@@ -1,0 +1,68 @@
+.app-container {
+    color: #bb86fc;
+    background-color: #332940;
+    display: grid;
+    grid-area: app-container;
+    margin: 2rem;
+    position: relative;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    border-radius: 3rem;
+    background: rgba( 187, 134, 252, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform: skewY(5deg);
+
+ 
+
+}
+
+
+.generadorQr {
+    display: flex;
+    flex-direction: column; 
+    border-radius: 3rem;
+
+   
+}
+
+.qrimg {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    -webkit-animation: bounceInDown 2s;
+    animation: bounceInDown 2s;
+    transition: all 2s
+}
+
+.qrimg:hover {
+    width: 30rem;
+}
+
+.contador-container {
+    display: grid;
+    grid-area: contador-container;
+    color: #bb86fc;
+    background-color: #332940;
+    line-height: 3rem;
+    position: relative;
+    margin: 3rem;
+    justify-self: center;
+    line-height: 3rem;
+    border-radius: 3rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 3rem;
+    background: rgba( 187, 134, 252, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform: skewY(-5deg);
+
+}

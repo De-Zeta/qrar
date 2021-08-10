@@ -1,0 +1,48 @@
+/* HISTORIA */
+@mixin tone ($paleta, $tone) {
+    grid-area: $paleta;
+    color: whitesmoke;
+    background-color: $tone;
+    display: grid;
+    border-radius: 5rem;
+    width: 6rem;
+    height: 6rem;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    margin: 1rem;
+}
+
+.paletasColores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "paleta1 paleta2" "paleta3 paleta4";
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    margin: 1rem;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+}
+
+.paleta1 {
+    @include tone(paleta1, #FF0080)
+}
+
+.paleta2 {
+    @include tone(paleta2, #bb86fc)
+}
+
+
+.paleta3 {
+    @include tone(paleta3, #332940)
+}
+
+
+.paleta4 {
+    @include tone(paleta4, #121212)
+}
+

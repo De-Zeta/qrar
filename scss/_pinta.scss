@@ -1,0 +1,72 @@
+/* PINTA */
+@mixin map ($paleta) {
+    grid-area: $paleta;
+    color: whitesmoke;
+    background-color: #FF0080;
+    display: grid;
+    border-radius: 5rem;
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    justify-items: center;
+    justify-content: flex-end;
+    margin: 1rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    transition: all .3s ease-in-out;
+}
+
+@mixin mapHover {
+    transform: scale(1.50);
+    z-index: 1;
+}
+
+
+.maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "paleta1 paleta2" "paleta3 paleta4";
+    justify-items: center;
+    justify-self: center;
+    justify-content: space-between;
+    -webkit-animation: fadeInUp 2s;
+    animation: fadeInUp 2s;
+}
+
+.map1 {
+
+    @include map(paleta1);
+
+}
+
+.map2 {
+    @include map(paleta2);
+}
+
+
+.map3 {
+    @include map(paleta3);
+}
+
+
+.map4 {
+    @include map(paleta4);
+}
+
+.map1:hover {
+    @include mapHover;
+}
+
+.map2:hover {
+    @include mapHover;
+}
+
+.map3:hover {
+    @include mapHover;
+}
+
+.map4:hover {
+    @include mapHover;
+}
