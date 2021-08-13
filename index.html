@@ -8,8 +8,8 @@
     
     <!-- SEO -->
     <meta name="description"
-    content="Genera tu propio codigo qr encriptado y mejora la forma de ">
- 
+    content="Genera tu propio codigo qr encriptado y revoluciona la forma de comunicarte">
+
     <meta name="keywords"
     content="QR, CODIGO, CODE, ENCRYPTION, QRAR, GENERADOR, BARRAS">
     
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-    <title>Mi primer prototipo HTML</title>
+    <title>Info en capsulas</title>
 </head>
 
 <body>
@@ -40,12 +40,12 @@
       </div>
     </div>
 
-    <header>
-            <div class=logo>
+    <header aria-label="header">
+            <div class=logo aria-label="logo">
             <img src="./images/qrar.png" alt="qrar logo" class="qrar" id="subir"> <!-- Titulo -->
             </div>
 
-            <nav>
+            <nav aria-label="navbar">
                 <ul class="list"> <!-- Menu de navegacion -->
                     <li class="subMenu"><a> Menu </a>
                         <ul class="subList">
@@ -66,12 +66,12 @@
             </nav>
     </header>
     
-        <main> <!-- Container padre  -->
+        <main aria-label="main-box"> <!-- Container padre  -->
 
 
-                <div class="app-container"> <!-- Container: app JS  -->
+                <div class="app-container" aria-label="app-box"> <!-- Container: app JS  -->
 
-                <h1> Genera tu codigo</h1>
+                <h2> Genera tu codigo</h2>
                 <input type="text" placeholder="Tu link"> </input>
                  <!-- app JS  -->
                     <img src="./images/QRCode.png" alt="qr" class="qrimg">
@@ -82,14 +82,14 @@
 
                 <div class="contador-container">
 
-                    <h1> Contador</h1> <!-- Container: contador  -->
+                    <h2> Contador</h2> <!-- Container: contador  -->
                         <h3> 300 </h3> 
                         <p> QR generados! </p> <!-- contador  -->
 
                 </div>
 
 
-            <div class="menu-container"> <!-- Container: Menu - 'Que es?' -->
+            <div class="menu-container" aria-label="QR-info"> <!-- Container: Menu - 'Que es?' -->
                 <p>
                     <a class="btn btn-dark butonMenu" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Que es un codigo QR?</a>
                     <button class="btn btn-dark butonMenu" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">QR vs barras</button>
@@ -104,8 +104,8 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="collapse multi-collapse" id="multiCollapseExample2">
-                        <div class="menu-container">
+                      <div class="collapse multi-collapse" id="multiCollapseExample2" aria-label="info">
+                        <div class="menu-container" aria-label="tabla">
                             <table>
                                 <tr>
                                     <th></th>
@@ -151,15 +151,15 @@
         </main>
 
 
-        <footer> <!-- footer -->
+        <footer aria-label="footer"> <!-- footer -->
 
             <div class="redes"> 
 
                 <a href=#subir>Subir al cielo</a>
 
                     <ul> <!-- Nav de footer -->
-                        <li><a href='https://www.instagram.com'><img src="./images/ig.svg" alt="ig" class="igimg"></a></li>
-                        <li><a href='https://www.facebook.com'><img src="./images/fb.svg" alt="fb" class="fbimg"></a></li>
+                        <li><a href='https://www.instagram.com'><img src="./images/ig.svg" alt="ig-logo" class="igimg"></a></li>
+                        <li><a href='https://www.facebook.com'><img src="./images/fb.svg" alt="fb-logo" class="fbimg"></a></li>
                     </ul>
 
             </div>
