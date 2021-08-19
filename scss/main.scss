@@ -1,6 +1,7 @@
 /* WEB EN CONSTRUCCION*/
 @import "body";
 @import "header";
+@import "landing";
 @import "app";
 @import "scrollbar";
 @import "contacto";
@@ -24,8 +25,8 @@ main {
     position: relative;
     z-index: 2;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "app-container contador-container" "menu-container menu-container";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "landing landing" "app-container contador-container" "menu-container menu-container";
     justify-content: center;
     
 }
@@ -76,7 +77,7 @@ p {
     z-index: 3;
     a {
         text-decoration: none;
-        color: cadetblue;
+        color: whitesmoke;
 
     }
     a:hover {
@@ -88,10 +89,12 @@ h1{
     display: flex;
     align-content: center;
     justify-content: center;
+    color: #FF0080;
     font-size: 18px;
     -webkit-animation: jackInTheBox 2s;
     animation: jackInTheBox 2s;
     margin: 1rem;
+
 }
 
 

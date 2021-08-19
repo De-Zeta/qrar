@@ -12,6 +12,7 @@ html {
   background: #123; }
 
 body, head {
+  background-size: cover;
   display: block;
   font-size: 52px;
   color: transparent;
@@ -29,22 +30,22 @@ body::before, body::after {
   animation: 44s -27s move infinite ease-in-out alternate; }
 
 body::before {
-  text-shadow: 1.49153em -0.196em 7px rgba(102, 0, 255, 0.9), 2.00045em 0.93993em 7px rgba(255, 57, 0, 0.9), 0.51476em 1.63172em 7px rgba(0, 203, 255, 0.9), -0.23873em 0.8308em 7px rgba(204, 255, 0, 0.9), 0.6171em 2.30259em 7px rgba(255, 0, 123, 0.9), 1.52418em 0.96532em 7px rgba(43, 255, 0, 0.9), 1.06214em 0.50479em 7px rgba(87, 0, 255, 0.9), 0.06245em -0.15576em 7px rgba(0, 255, 110, 0.9), -0.26735em 1.52454em 7px rgba(255, 0, 63, 0.9), 0.64285em 1.07534em 7px rgba(0, 255, 188, 0.9), 1.20875em 0.8485em 7px rgba(199, 0, 255, 0.9), 0.99085em 0.2917em 7px rgba(255, 88, 0, 0.9), 0.34584em 1.07838em 7px rgba(0, 255, 224, 0.9), 1.87356em 0.90002em 7px rgba(0, 255, 79, 0.9), 1.66621em 1.22328em 7px rgba(255, 0, 116, 0.9), 1.92487em 0.55239em 7px rgba(0, 255, 15, 0.9), 1.95015em -0.14802em 7px rgba(118, 0, 255, 0.9), 0.68951em 1.92879em 7px rgba(0, 255, 181, 0.9), 1.51464em 0.60903em 7px rgba(255, 102, 0, 0.9), 2.20958em 2.2417em 7px rgba(245, 255, 0, 0.9), 0.38178em 2.06495em 7px rgba(76, 255, 0, 0.9), 0.55896em -0.06248em 7px rgba(255, 33, 0, 0.9), 2.18608em -0.10062em 7px rgba(255, 99, 0, 0.9), 1.44939em 0.51198em 7px rgba(255, 0, 122, 0.9), -0.48244em 0.18618em 7px rgba(0, 255, 252, 0.9), 1.25208em 0.3216em 7px rgba(255, 0, 133, 0.9), 0.93079em 1.74138em 7px rgba(157, 255, 0, 0.9), 0.68131em 1.39411em 7px rgba(240, 255, 0, 0.9), 2.04298em 2.34211em 7px rgba(0, 255, 6, 0.9), -0.33769em 2.09551em 7px rgba(106, 0, 255, 0.9), 1.37157em 0.37532em 7px rgba(0, 48, 255, 0.9), 1.10641em 2.10427em 7px rgba(0, 255, 186, 0.9), 1.98738em 2.15481em 7px rgba(0, 39, 255, 0.9), 0.81464em 0.0683em 7px rgba(176, 0, 255, 0.9), 0.80396em 2.37674em 7px rgba(255, 0, 16, 0.9), 1.77107em 1.72833em 7px rgba(202, 255, 0, 0.9), 0.93904em 2.4691em 7px rgba(255, 0, 229, 0.9), 0.33379em 0.30353em 7px rgba(121, 255, 0, 0.9), 1.19131em -0.19664em 7px rgba(108, 0, 255, 0.9), -0.26497em 1.04142em 7px rgba(255, 0, 19, 0.9), 2.17375em 1.6225em 7px rgba(255, 0, 149, 0.9);
+  text-shadow: 0.72246em 1.87051em 7px rgba(0, 255, 63, 0.9), -0.16218em 1.15197em 7px rgba(0, 255, 50, 0.9), 1.59839em 1.54191em 7px rgba(150, 0, 255, 0.9), 0.9506em 0.25723em 7px rgba(233, 0, 255, 0.9), 1.72163em 0.16178em 7px rgba(255, 0, 180, 0.9), 1.78752em 1.57773em 7px rgba(0, 255, 233, 0.9), -0.31183em 0.37043em 7px rgba(212, 0, 255, 0.9), -0.04223em -0.43256em 7px rgba(255, 227, 0, 0.9), 2.22205em 0.73034em 7px rgba(0, 255, 102, 0.9), 1.78827em 1.61312em 7px rgba(0, 255, 227, 0.9), 2.31763em 0.49536em 7px rgba(255, 0, 58, 0.9), 1.75401em 2.34701em 7px rgba(255, 205, 0, 0.9), 1.96491em 1.71112em 7px rgba(0, 255, 139, 0.9), 1.17614em -0.43043em 7px rgba(0, 231, 255, 0.9), 1.34135em 2.12249em 7px rgba(255, 82, 0, 0.9), 0.83304em 1.81049em 7px rgba(244, 0, 255, 0.9), 0.51308em -0.45409em 7px rgba(0, 255, 201, 0.9), 1.42328em 0.89329em 7px rgba(255, 155, 0, 0.9), -0.27711em 0.88891em 7px rgba(190, 0, 255, 0.9), 1.21793em 0.17287em 7px rgba(0, 255, 135, 0.9), 1.66521em 0.47445em 7px rgba(0, 255, 166, 0.9), -0.14052em 0.94474em 7px rgba(208, 255, 0, 0.9), 1.15758em 1.8748em 7px rgba(20, 255, 0, 0.9), 1.81325em -0.03473em 7px rgba(0, 224, 255, 0.9), -0.17904em 1.52197em 7px rgba(19, 0, 255, 0.9), 2.23071em 2.27436em 7px rgba(255, 48, 0, 0.9), 0.15952em 1.12158em 7px rgba(49, 0, 255, 0.9), 2.46244em 0.79714em 7px rgba(16, 255, 0, 0.9), 1.90658em 1.52725em 7px rgba(226, 255, 0, 0.9), 0.86541em 0.78347em 7px rgba(255, 249, 0, 0.9), 1.92274em 0.32839em 7px rgba(255, 218, 0, 0.9), 1.1149em -0.12351em 7px rgba(0, 255, 124, 0.9), 1.81099em 0.86749em 7px rgba(255, 37, 0, 0.9), 2.3759em 0.32647em 7px rgba(255, 0, 138, 0.9), 2.3751em -0.37707em 7px rgba(255, 0, 23, 0.9), 1.58307em -0.00098em 7px rgba(251, 255, 0, 0.9), 1.3367em 2.37355em 7px rgba(92, 255, 0, 0.9), 0.91199em 1.1097em 7px rgba(255, 0, 239, 0.9), -0.09956em 0.81957em 7px rgba(255, 235, 0, 0.9), 0.94em -0.10678em 7px rgba(10, 255, 0, 0.9), -0.22418em 2.07981em 7px rgba(255, 0, 244, 0.9);
   animation-duration: 44s;
   animation-delay: -27s; }
 
 body::after {
-  text-shadow: -0.15643em 1.32765em 7px rgba(255, 49, 0, 0.9), 1.22649em 2.38416em 7px rgba(255, 97, 0, 0.9), 1.74904em -0.26181em 7px rgba(59, 255, 0, 0.9), 0.10244em 1.48203em 7px rgba(0, 255, 136, 0.9), 1.57202em 1.92741em 7px rgba(255, 3, 0, 0.9), 0.86191em 2.35198em 7px rgba(255, 58, 0, 0.9), -0.11709em -0.02822em 7px rgba(255, 53, 0, 0.9), 2.30678em 0.29205em 7px rgba(255, 0, 187, 0.9), 0.75373em 0.51883em 7px rgba(255, 0, 221, 0.9), 2.04595em 1.48899em 7px rgba(0, 73, 255, 0.9), 1.15449em 0.24237em 7px rgba(255, 0, 62, 0.9), 2.10492em 0.32366em 7px rgba(0, 105, 255, 0.9), 0.87209em 1.81048em 7px rgba(255, 0, 173, 0.9), 2.0441em 0.70483em 7px rgba(255, 128, 0, 0.9), -0.33162em 0.51681em 7px rgba(0, 255, 62, 0.9), 2.35383em 1.90579em 7px rgba(255, 0, 11, 0.9), 1.82217em -0.46646em 7px rgba(0, 255, 19, 0.9), 1.83206em -0.02435em 7px rgba(0, 255, 160, 0.9), 0.27155em 2.10605em 7px rgba(255, 180, 0, 0.9), -0.48811em 0.12185em 7px rgba(0, 14, 255, 0.9), -0.01381em -0.12763em 7px rgba(255, 141, 0, 0.9), 0.54448em 1.3647em 7px rgba(228, 255, 0, 0.9), 1.47527em 2.30031em 7px rgba(255, 123, 0, 0.9), 1.82234em 2.1725em 7px rgba(0, 255, 42, 0.9), 0.61314em 1.2527em 7px rgba(255, 0, 117, 0.9), 1.25567em 0.80759em 7px rgba(255, 222, 0, 0.9), 1.03609em 0.64541em 7px rgba(0, 255, 92, 0.9), 0.93071em 1.60526em 7px rgba(0, 255, 41, 0.9), -0.13859em 0.37215em 7px rgba(210, 255, 0, 0.9), 1.82173em 0.87853em 7px rgba(0, 102, 255, 0.9), 1.01201em 0.96859em 7px rgba(177, 0, 255, 0.9), 0.92462em 2.46512em 7px rgba(129, 0, 255, 0.9), 1.30475em 0.49015em 7px rgba(0, 151, 255, 0.9), 0.12504em 1.22776em 7px rgba(246, 255, 0, 0.9), 0.37747em 0.53859em 7px rgba(171, 0, 255, 0.9), -0.42777em 1.75425em 7px rgba(141, 255, 0, 0.9), -0.2344em 0.00753em 7px rgba(255, 0, 238, 0.9), 2.33368em -0.15674em 7px rgba(242, 0, 255, 0.9), 2.26483em 0.60299em 7px rgba(128, 0, 255, 0.9), 0.66264em 1.28574em 7px rgba(255, 94, 0, 0.9), 0.8508em -0.24765em 7px rgba(255, 8, 0, 0.9);
+  text-shadow: 0.66223em 0.82589em 7px rgba(255, 0, 143, 0.9), 0.67303em 0.68123em 7px rgba(255, 0, 250, 0.9), 2.0858em 0.47879em 7px rgba(255, 145, 0, 0.9), 1.12459em 0.65427em 7px rgba(0, 112, 255, 0.9), 1.29639em 0.50029em 7px rgba(255, 0, 234, 0.9), -0.20238em 1.28228em 7px rgba(0, 255, 101, 0.9), 0.97249em 1.0694em 7px rgba(255, 0, 165, 0.9), -0.24341em 1.93753em 7px rgba(255, 0, 212, 0.9), 1.05423em 1.07346em 7px rgba(0, 16, 255, 0.9), 1.33147em 1.41632em 7px rgba(51, 255, 0, 0.9), -0.34429em 1.58933em 7px rgba(197, 0, 255, 0.9), 1.9773em 1.21934em 7px rgba(114, 0, 255, 0.9), 2.32187em 0.23474em 7px rgba(0, 255, 171, 0.9), -0.29654em 2.21108em 7px rgba(94, 0, 255, 0.9), 1.85266em 1.91384em 7px rgba(0, 225, 255, 0.9), 1.34136em 0.82984em 7px rgba(0, 176, 255, 0.9), 0.50912em 1.8067em 7px rgba(255, 0, 106, 0.9), 2.41021em 2.27631em 7px rgba(0, 255, 185, 0.9), 1.58337em 1.72281em 7px rgba(255, 0, 6, 0.9), -0.28593em 0.66546em 7px rgba(210, 0, 255, 0.9), 0.50375em -0.07469em 7px rgba(0, 147, 255, 0.9), 0.17394em 1.70399em 7px rgba(0, 255, 152, 0.9), 1.40349em 1.67792em 7px rgba(0, 235, 255, 0.9), 2.23627em 1.71841em 7px rgba(233, 0, 255, 0.9), -0.14331em 0.06278em 7px rgba(0, 255, 154, 0.9), 0.08864em 1.73208em 7px rgba(0, 26, 255, 0.9), 2.26184em 1.54645em 7px rgba(0, 178, 255, 0.9), 0.84996em 0.5262em 7px rgba(255, 0, 32, 0.9), 0.79056em 2.35121em 7px rgba(42, 0, 255, 0.9), 0.08639em 1.39562em 7px rgba(129, 0, 255, 0.9), 0.59169em 2.24131em 7px rgba(206, 255, 0, 0.9), 1.21036em 2.18062em 7px rgba(0, 120, 255, 0.9), 0.44588em 0.83229em 7px rgba(181, 0, 255, 0.9), 0.09535em 0.46675em 7px rgba(0, 66, 255, 0.9), -0.08223em 1.54767em 7px rgba(0, 255, 122, 0.9), -0.00097em 0.27149em 7px rgba(255, 2, 0, 0.9), -0.18158em 1.84653em 7px rgba(122, 0, 255, 0.9), 2.45053em 1.06337em 7px rgba(164, 255, 0, 0.9), 0.92919em 1.85822em 7px rgba(0, 76, 255, 0.9), 1.20263em 0.82306em 7px rgba(68, 0, 255, 0.9), 0.15528em -0.0305em 7px rgba(0, 210, 255, 0.9);
   animation-duration: 43s;
   animation-delay: -32s; }
 
 head::before {
-  text-shadow: 0.22197em 0.87442em 7px rgba(0, 239, 255, 0.9), -0.02389em 0.36345em 7px rgba(0, 64, 255, 0.9), 1.71387em 0.26017em 7px rgba(48, 255, 0, 0.9), -0.12823em 2.07106em 7px rgba(184, 0, 255, 0.9), 0.3662em 1.60949em 7px rgba(0, 255, 38, 0.9), 1.41827em 0.09922em 7px rgba(246, 0, 255, 0.9), 0.617em -0.12255em 7px rgba(255, 0, 146, 0.9), 0.39753em 1.1819em 7px rgba(255, 36, 0, 0.9), 0.34322em 1.0248em 7px rgba(43, 0, 255, 0.9), 0.15167em 2.11877em 7px rgba(28, 255, 0, 0.9), 0.20489em 1.30483em 7px rgba(0, 255, 241, 0.9), 0.99051em 2.15538em 7px rgba(227, 0, 255, 0.9), 0.17965em 1.03087em 7px rgba(11, 0, 255, 0.9), 0.14255em 0.74773em 7px rgba(252, 0, 255, 0.9), 1.84929em 0.37654em 7px rgba(0, 255, 91, 0.9), 0.71757em 1.31987em 7px rgba(0, 255, 180, 0.9), -0.48888em 1.95275em 7px rgba(0, 71, 255, 0.9), 2.29835em -0.23821em 7px rgba(0, 237, 255, 0.9), 0.41098em 0.13973em 7px rgba(255, 0, 85, 0.9), 1.98794em -0.33104em 7px rgba(107, 0, 255, 0.9), 0.22383em -0.00909em 7px rgba(255, 37, 0, 0.9), 1.2134em -0.23166em 7px rgba(0, 255, 154, 0.9), 2.44256em 1.43303em 7px rgba(196, 255, 0, 0.9), 0.25167em -0.02727em 7px rgba(255, 230, 0, 0.9), 1.53026em 2.49612em 7px rgba(106, 255, 0, 0.9), 1.42594em 0.21995em 7px rgba(255, 0, 19, 0.9), 0.47412em 2.38454em 7px rgba(255, 50, 0, 0.9), 1.95406em 0.86562em 7px rgba(255, 0, 22, 0.9), 1.35579em 1.20347em 7px rgba(223, 255, 0, 0.9), 1.46746em 1.76264em 7px rgba(255, 0, 31, 0.9), 0.77229em 1.30579em 7px rgba(0, 39, 255, 0.9), 1.37503em 0.28576em 7px rgba(0, 255, 160, 0.9), -0.1297em 1.99371em 7px rgba(255, 0, 159, 0.9), 2.07072em 0.9453em 7px rgba(255, 0, 100, 0.9), 0.42645em 0.08611em 7px rgba(0, 19, 255, 0.9), 2.34313em 1.18763em 7px rgba(0, 255, 173, 0.9), 0.40279em 1.50192em 7px rgba(163, 0, 255, 0.9), -0.38478em 2.4263em 7px rgba(86, 255, 0, 0.9), -0.12549em 2.43475em 7px rgba(47, 255, 0, 0.9), 0.64473em 0.81342em 7px rgba(0, 255, 129, 0.9), 1.80653em 0.32101em 7px rgba(255, 25, 0, 0.9);
+  text-shadow: 1.80908em 0.02269em 7px rgba(255, 0, 182, 0.9), 2.16818em 1.29569em 7px rgba(0, 218, 255, 0.9), 0.88583em 2.40258em 7px rgba(0, 255, 170, 0.9), 1.91122em 0.11465em 7px rgba(255, 138, 0, 0.9), 0.95694em 0.77997em 7px rgba(0, 255, 205, 0.9), -0.12017em 1.49543em 7px rgba(255, 36, 0, 0.9), 2.19782em 1.98925em 7px rgba(193, 255, 0, 0.9), 2.20707em 2.22192em 7px rgba(133, 0, 255, 0.9), 1.87573em 0.84045em 7px rgba(255, 202, 0, 0.9), 0.46229em 1.92285em 7px rgba(255, 249, 0, 0.9), -0.4033em 1.70087em 7px rgba(0, 255, 98, 0.9), -0.44997em 2.41764em 7px rgba(255, 178, 0, 0.9), 2.22677em 1.27591em 7px rgba(255, 0, 8, 0.9), 2.33902em 2.16057em 7px rgba(0, 255, 7, 0.9), 1.35727em -0.09282em 7px rgba(0, 255, 57, 0.9), 0.00276em 1.44169em 7px rgba(151, 0, 255, 0.9), 1.16509em 1.94841em 7px rgba(0, 8, 255, 0.9), 1.74691em 0.29587em 7px rgba(93, 0, 255, 0.9), 0.88012em 1.20406em 7px rgba(170, 0, 255, 0.9), 0.26255em 1.14172em 7px rgba(255, 39, 0, 0.9), 1.86228em 2.4402em 7px rgba(0, 255, 4, 0.9), 1.71274em 0.18298em 7px rgba(172, 255, 0, 0.9), 1.71197em 2.23248em 7px rgba(255, 246, 0, 0.9), 1.47042em 0.09294em 7px rgba(255, 0, 97, 0.9), 0.48628em -0.38185em 7px rgba(133, 0, 255, 0.9), -0.40178em -0.45124em 7px rgba(255, 131, 0, 0.9), 0.46776em -0.26207em 7px rgba(0, 255, 207, 0.9), -0.14507em 0.69878em 7px rgba(255, 124, 0, 0.9), 2.0996em 0.64005em 7px rgba(0, 255, 237, 0.9), 0.34927em 0.63038em 7px rgba(0, 95, 255, 0.9), 2.07639em 0.57762em 7px rgba(255, 237, 0, 0.9), 0.48237em 2.01124em 7px rgba(0, 255, 100, 0.9), 1.06547em 0.57205em 7px rgba(116, 0, 255, 0.9), 1.91482em -0.10627em 7px rgba(0, 255, 201, 0.9), 2.45911em 2.131em 7px rgba(143, 0, 255, 0.9), 1.56289em 0.01347em 7px rgba(215, 0, 255, 0.9), 0.24542em 0.85408em 7px rgba(0, 193, 255, 0.9), 0.70595em 0.57063em 7px rgba(0, 21, 255, 0.9), 0.58502em 0.64797em 7px rgba(0, 255, 103, 0.9), 0.83702em 2.0964em 7px rgba(203, 255, 0, 0.9), 2.45433em 0.68115em 7px rgba(0, 255, 88, 0.9);
   animation-duration: 42s;
   animation-delay: -23s; }
 
 head::after {
-  text-shadow: 0.19484em 0.12963em 7px rgba(0, 49, 255, 0.9), 1.93186em 1.19637em 7px rgba(165, 255, 0, 0.9), 0.01852em 0.43725em 7px rgba(255, 195, 0, 0.9), 2.1957em 1.01511em 7px rgba(202, 0, 255, 0.9), 1.87449em 1.42233em 7px rgba(0, 255, 8, 0.9), 0.1267em 1.22895em 7px rgba(115, 0, 255, 0.9), 1.83569em -0.3534em 7px rgba(0, 181, 255, 0.9), 0.82324em 1.64776em 7px rgba(255, 156, 0, 0.9), -0.05841em 1.43137em 7px rgba(255, 0, 128, 0.9), 1.61926em 0.72553em 7px rgba(255, 0, 44, 0.9), 0.36699em 0.75786em 7px rgba(255, 1, 0, 0.9), 1.82767em 0.13327em 7px rgba(255, 190, 0, 0.9), 0.55419em 1.9295em 7px rgba(191, 0, 255, 0.9), 2.32638em -0.27113em 7px rgba(78, 255, 0, 0.9), 0.06858em 1.53701em 7px rgba(0, 104, 255, 0.9), 0.63156em 0.32452em 7px rgba(255, 0, 133, 0.9), 1.73847em 1.64906em 7px rgba(178, 0, 255, 0.9), 1.04453em -0.33218em 7px rgba(51, 0, 255, 0.9), 0.28768em 1.36505em 7px rgba(114, 0, 255, 0.9), 1.42291em 1.78672em 7px rgba(0, 255, 68, 0.9), 1.26342em 2.4518em 7px rgba(0, 255, 96, 0.9), 1.78569em 1.82103em 7px rgba(0, 130, 255, 0.9), 2.45293em 1.1664em 7px rgba(0, 255, 60, 0.9), -0.13897em -0.11726em 7px rgba(0, 113, 255, 0.9), 0.57041em 0.16648em 7px rgba(0, 255, 153, 0.9), 1.93833em 1.53806em 7px rgba(255, 60, 0, 0.9), 1.48748em 2.35102em 7px rgba(255, 0, 206, 0.9), 0.21839em 0.71401em 7px rgba(0, 8, 255, 0.9), 0.49438em 2.14774em 7px rgba(231, 0, 255, 0.9), 0.2125em 0.53884em 7px rgba(0, 2, 255, 0.9), 1.64324em 1.41003em 7px rgba(255, 179, 0, 0.9), 1.29676em 0.55877em 7px rgba(255, 226, 0, 0.9), 1.44645em 0.62087em 7px rgba(0, 187, 255, 0.9), 0.68905em 1.21507em 7px rgba(255, 33, 0, 0.9), 1.89567em 0.50293em 7px rgba(48, 0, 255, 0.9), 0.24092em 0.97718em 7px rgba(0, 99, 255, 0.9), 2.1936em 0.14497em 7px rgba(63, 255, 0, 0.9), 1.38846em 1.91983em 7px rgba(117, 0, 255, 0.9), 2.35951em 0.01563em 7px rgba(232, 255, 0, 0.9), 2.26465em 0.02089em 7px rgba(243, 0, 255, 0.9), 0.44563em 1.47322em 7px rgba(0, 255, 28, 0.9);
+  text-shadow: 1.65827em 0.4143em 7px rgba(0, 231, 255, 0.9), 1.73875em -0.36577em 7px rgba(255, 186, 0, 0.9), -0.32736em 1.42335em 7px rgba(0, 82, 255, 0.9), 2.07161em 0.19617em 7px rgba(255, 139, 0, 0.9), 0.8052em 0.38573em 7px rgba(77, 255, 0, 0.9), 0.37185em 1.50171em 7px rgba(189, 255, 0, 0.9), 1.26704em 1.85991em 7px rgba(255, 77, 0, 0.9), 0.32291em 0.83492em 7px rgba(255, 0, 194, 0.9), -0.01914em 1.21816em 7px rgba(0, 48, 255, 0.9), 1.66941em 1.45155em 7px rgba(226, 0, 255, 0.9), -0.02738em 0.65532em 7px rgba(101, 0, 255, 0.9), 0.78314em 2.2686em 7px rgba(0, 255, 130, 0.9), 0.43206em -0.246em 7px rgba(249, 0, 255, 0.9), -0.46363em 2.33194em 7px rgba(255, 153, 0, 0.9), 0.29528em 1.37907em 7px rgba(0, 19, 255, 0.9), 0.74747em 0.3464em 7px rgba(92, 0, 255, 0.9), 1.36568em -0.12159em 7px rgba(59, 255, 0, 0.9), 1.4672em 2.09358em 7px rgba(25, 255, 0, 0.9), -0.14906em 0.45663em 7px rgba(180, 255, 0, 0.9), 0.02237em -0.05693em 7px rgba(255, 0, 249, 0.9), 2.00297em 1.67563em 7px rgba(255, 0, 137, 0.9), 0.91438em 0.98952em 7px rgba(255, 137, 0, 0.9), 1.0005em 2.32212em 7px rgba(0, 255, 45, 0.9), -0.19154em 2.10018em 7px rgba(62, 255, 0, 0.9), -0.01122em 0.03015em 7px rgba(0, 255, 172, 0.9), 1.99067em 0.02373em 7px rgba(0, 255, 30, 0.9), 1.59644em 1.22414em 7px rgba(216, 0, 255, 0.9), 1.46702em 0.20465em 7px rgba(137, 255, 0, 0.9), -0.32213em 1.85873em 7px rgba(255, 0, 159, 0.9), 0.29558em -0.05018em 7px rgba(172, 255, 0, 0.9), 2.41613em 1.96762em 7px rgba(233, 0, 255, 0.9), 2.34749em 1.10686em 7px rgba(104, 255, 0, 0.9), 0.75723em 0.54763em 7px rgba(255, 171, 0, 0.9), 1.77744em 0.87998em 7px rgba(0, 255, 238, 0.9), 0.56356em 1.49803em 7px rgba(255, 0, 208, 0.9), -0.02475em -0.45564em 7px rgba(255, 53, 0, 0.9), 0.72988em 0.30997em 7px rgba(0, 255, 137, 0.9), 1.67917em 2.19699em 7px rgba(210, 255, 0, 0.9), 0.0154em 0.40793em 7px rgba(30, 0, 255, 0.9), 1.6069em -0.26823em 7px rgba(255, 236, 0, 0.9), 1.53285em 0.23823em 7px rgba(255, 90, 0, 0.9);
   animation-duration: 41s;
   animation-delay: -19s; }
 
@@ -162,6 +163,107 @@ header {
     font-family: 'Cairo', sans-serif;
     animation: fadeIn 2s; } }
 
+/* LANDING   */
+.landing {
+  display: grid;
+  grid-area: landing;
+  color: #bb86fc;
+  background-color: #1F1B24;
+  margin-bottom: 4rem;
+  position: relative;
+  justify-self: center;
+  text-align: center;
+  line-height: 1rem;
+  border-radius: 3rem;
+  background: rgba(187, 134, 252, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2;
+  z-index: 3;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "landingtext landingimg"; }
+  .landing .landing-text {
+    display: grid;
+    grid-area: landingtext;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center; }
+    .landing .landing-text a {
+      text-decoration: none;
+      color: whitesmoke; }
+
+svg#freepik_stories-qr-code:not(.animated)
+.animated {
+  opacity: 0; }
+
+svg#freepik_stories-qr-code.animated {
+  display: grid;
+  grid-area: landingtext;
+  align-items: center;
+  justify-content: center;
+  justify-self: center; }
+
+svg#freepik_stories-qr-code.animated #freepik--Wall--inject-2 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideLeft;
+  animation-delay: 0s; }
+  svg#freepik_stories-qr-code.animated #freepik--Wall--inject-2 svg#freepik_stories-qr-code.animated #freepik--qr-code--inject-2 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) zoomIn, 3s Infinite linear heartbeat;
+    animation-delay: 0s,1s; }
+  svg#freepik_stories-qr-code.animated #freepik--Wall--inject-2 svg#freepik_stories-qr-code.animated #freepik--Character--inject-2 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedRight;
+    animation-delay: 0s; }
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1); }
+  10% {
+    transform: scale(1.1); }
+  30% {
+    transform: scale(1); }
+  40% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  60% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes lightSpeedRight {
+  from {
+    transform: translate3d(50%, 0, 0) skewX(-20deg);
+    opacity: 0; }
+  60% {
+    transform: skewX(10deg);
+    opacity: 1; }
+  80% {
+    transform: skewX(-2deg); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
+  svg#freepik_stories-qr-code.animated #freepik--Wall--inject-2 .animator-hidden {
+    display: none; }
+
 .app-container {
   color: #bb86fc;
   background-color: #332940;
@@ -194,9 +296,6 @@ header {
   -webkit-animation: bounceInDown 2s;
   animation: bounceInDown 2s;
   transition: all 2s; }
-
-.qrimg:hover {
-  width: 30rem; }
 
 .contador-container {
   display: grid;
@@ -558,8 +657,8 @@ main {
   position: relative;
   z-index: 2;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "app-container contador-container" "menu-container menu-container";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "landing landing" "app-container contador-container" "menu-container menu-container";
   justify-content: center; }
 
 h2 {
@@ -599,7 +698,7 @@ p {
   z-index: 3; }
   .menu-container a {
     text-decoration: none;
-    color: cadetblue; }
+    color: whitesmoke; }
   .menu-container a:hover {
     color: #FF0080; }
 
@@ -607,6 +706,7 @@ h1 {
   display: flex;
   align-content: center;
   justify-content: center;
+  color: #FF0080;
   font-size: 18px;
   -webkit-animation: jackInTheBox 2s;
   animation: jackInTheBox 2s;

@@ -1,0 +1,64 @@
+/* LANDING   */
+.landing {
+    display: grid;
+    grid-area: landing;
+    color: #bb86fc;
+    background-color: #1F1B24;
+    margin-bottom: 4rem;
+    position: relative;
+    justify-self: center;
+    text-align: center;
+    line-height: 1rem;
+    border-radius: 3rem;
+    background: rgba( 187, 134, 252, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2;
+    z-index: 3;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:"landingtext landingimg";
+    
+    .landing-text{
+        display: grid;
+        grid-area: landingtext;
+        margin: 1rem;
+        align-items: center;
+        justify-content: center;
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+    
+        }
+    }
+
+
+}
+
+svg#freepik_stories-qr-code:not(.animated) 
+.animated {
+
+    opacity: 0;
+
+}
+
+svg#freepik_stories-qr-code.animated {
+    
+    display: grid;
+    grid-area: landingtext;  
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    
+    
+
+}
+svg#freepik_stories-qr-code.animated #freepik--Wall--inject-2 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideLeft;animation-delay: 0s;
+    svg#freepik_stories-qr-code.animated #freepik--qr-code--inject-2 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn,3s Infinite  linear heartbeat;animation-delay: 0s,1s;}svg#freepik_stories-qr-code.animated #freepik--Character--inject-2 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedRight;animation-delay: 0s;}            @keyframes slideLeft {                0% {                    opacity: 0;                    transform: translateX(-30px);                }                100% {                    opacity: 1;                    transform: translateX(0);                }            }                    @keyframes zoomIn {                0% {                    opacity: 0;                    transform: scale(0.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes heartbeat {                0% {                    transform: scale(1);                }                10% {                    transform: scale(1.1);                }                30% {                    transform: scale(1);                }                40% {                    transform: scale(1);                }                50% {                    transform: scale(1.1);                }                60% {                    transform: scale(1);                }                100% {                    transform: scale(1);                }            }                    @keyframes lightSpeedRight {              from {                transform: translate3d(50%, 0, 0) skewX(-20deg);                opacity: 0;              }              60% {                transform: skewX(10deg);                opacity: 1;              }              80% {                transform: skewX(-2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }        .animator-hidden { display: none; }
+
+}
