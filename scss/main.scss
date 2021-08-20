@@ -12,12 +12,17 @@
 
 
 .alert {
-    background-color: #bb86fc;
+    background-color: #251935;
     color: #FF0080;
+    font-size: 1rem;
+    font-weight: 400;
+    z-index: 2;
 }
 
 
-
+html {
+    font-family: 'Cairo', sans-serif
+}
 
 main {
     color: #bb86fc;;
@@ -31,10 +36,29 @@ main {
     
 }
 
-
-
+h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #FF0080;
+    font-size: 5rem;
+    -webkit-animation: jackInTheBox 2s;
+    animation: jackInTheBox 2s;
+    margin: 1rem;
+    font-weight: 700;
+}
 
 h2 {
+    color: #bb86fc;
+    padding: 2rem;
+    margin: 2rem;
+    -webkit-animation: fadeInDown 2s;
+    animation: fadeInDown 2s;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
     color: #bb86fc;
     padding: 2rem;
     margin: 2rem;
@@ -42,13 +66,11 @@ h2 {
     -webkit-animation: fadeInDown 2s;
     animation: fadeInDown 2s;
     text-align: center;
-    font-family: 'Cairo', sans-serif;
-    font-weight: 900;
+    font-weight: bold 900;
 }
 
 p {
     margin: 3rem;
-    font-family: 'Cairo', sans-serif;
     color: #bb86fc;
 }
 
@@ -78,6 +100,7 @@ p {
     a {
         text-decoration: none;
         color: whitesmoke;
+        font-weight:700;
 
     }
     a:hover {
@@ -85,20 +108,10 @@ p {
     }
 }
 
-h1{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: #FF0080;
-    font-size: 18px;
-    -webkit-animation: jackInTheBox 2s;
-    animation: jackInTheBox 2s;
-    margin: 1rem;
-
-}
 
 
 .buton {
+    display: flex;
     border-radius: 3rem;
     background-color: #332940;
     color: #FF0080;     
@@ -107,8 +120,10 @@ h1{
     backdrop-filter: blur( 11.0px );
     -webkit-backdrop-filter: blur( 11.0px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    margin-bottom: 5fr;
-    transition: all 2s
+    transition: all 2s;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .buton:hover {

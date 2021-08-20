@@ -19,18 +19,19 @@
     animation: fadeIn 2;
     z-index: 3;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
     grid-template-areas:"landingtext landingimg";
     
     .landing-text{
-        display: grid;
         grid-area: landingtext;
         margin: 1rem;
         align-items: center;
         justify-content: center;
+        align-content: center;
         a {
             text-decoration: none;
             color: whitesmoke;
+            justify-content: center;
+            align-items: center;
     
         }
     }
@@ -47,8 +48,7 @@ svg#freepik_stories-qr-code:not(.animated)
 
 svg#freepik_stories-qr-code.animated {
     
-    display: grid;
-    grid-area: landingtext;  
+    grid-area: landingimg;  
     align-items: center;
     justify-content: center;
     justify-self: center;

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* WEB EN CONSTRUCCION*/
 body {
   color: #bb86fc;
@@ -30,22 +29,22 @@ body::before, body::after {
   animation: 44s -27s move infinite ease-in-out alternate; }
 
 body::before {
-  text-shadow: 0.72246em 1.87051em 7px rgba(0, 255, 63, 0.9), -0.16218em 1.15197em 7px rgba(0, 255, 50, 0.9), 1.59839em 1.54191em 7px rgba(150, 0, 255, 0.9), 0.9506em 0.25723em 7px rgba(233, 0, 255, 0.9), 1.72163em 0.16178em 7px rgba(255, 0, 180, 0.9), 1.78752em 1.57773em 7px rgba(0, 255, 233, 0.9), -0.31183em 0.37043em 7px rgba(212, 0, 255, 0.9), -0.04223em -0.43256em 7px rgba(255, 227, 0, 0.9), 2.22205em 0.73034em 7px rgba(0, 255, 102, 0.9), 1.78827em 1.61312em 7px rgba(0, 255, 227, 0.9), 2.31763em 0.49536em 7px rgba(255, 0, 58, 0.9), 1.75401em 2.34701em 7px rgba(255, 205, 0, 0.9), 1.96491em 1.71112em 7px rgba(0, 255, 139, 0.9), 1.17614em -0.43043em 7px rgba(0, 231, 255, 0.9), 1.34135em 2.12249em 7px rgba(255, 82, 0, 0.9), 0.83304em 1.81049em 7px rgba(244, 0, 255, 0.9), 0.51308em -0.45409em 7px rgba(0, 255, 201, 0.9), 1.42328em 0.89329em 7px rgba(255, 155, 0, 0.9), -0.27711em 0.88891em 7px rgba(190, 0, 255, 0.9), 1.21793em 0.17287em 7px rgba(0, 255, 135, 0.9), 1.66521em 0.47445em 7px rgba(0, 255, 166, 0.9), -0.14052em 0.94474em 7px rgba(208, 255, 0, 0.9), 1.15758em 1.8748em 7px rgba(20, 255, 0, 0.9), 1.81325em -0.03473em 7px rgba(0, 224, 255, 0.9), -0.17904em 1.52197em 7px rgba(19, 0, 255, 0.9), 2.23071em 2.27436em 7px rgba(255, 48, 0, 0.9), 0.15952em 1.12158em 7px rgba(49, 0, 255, 0.9), 2.46244em 0.79714em 7px rgba(16, 255, 0, 0.9), 1.90658em 1.52725em 7px rgba(226, 255, 0, 0.9), 0.86541em 0.78347em 7px rgba(255, 249, 0, 0.9), 1.92274em 0.32839em 7px rgba(255, 218, 0, 0.9), 1.1149em -0.12351em 7px rgba(0, 255, 124, 0.9), 1.81099em 0.86749em 7px rgba(255, 37, 0, 0.9), 2.3759em 0.32647em 7px rgba(255, 0, 138, 0.9), 2.3751em -0.37707em 7px rgba(255, 0, 23, 0.9), 1.58307em -0.00098em 7px rgba(251, 255, 0, 0.9), 1.3367em 2.37355em 7px rgba(92, 255, 0, 0.9), 0.91199em 1.1097em 7px rgba(255, 0, 239, 0.9), -0.09956em 0.81957em 7px rgba(255, 235, 0, 0.9), 0.94em -0.10678em 7px rgba(10, 255, 0, 0.9), -0.22418em 2.07981em 7px rgba(255, 0, 244, 0.9);
+  text-shadow: 1.98944em 0.93254em 7px rgba(148, 255, 0, 0.9), 1.3876em 1.50291em 7px rgba(0, 255, 39, 0.9), 0.02048em 2.39627em 7px rgba(255, 0, 27, 0.9), 2.14953em 2.32646em 7px rgba(0, 197, 255, 0.9), -0.21737em 1.26789em 7px rgba(153, 0, 255, 0.9), 0.65064em 1.78077em 7px rgba(11, 0, 255, 0.9), 0.94571em 0.61595em 7px rgba(255, 96, 0, 0.9), 2.3029em 1.0224em 7px rgba(255, 47, 0, 0.9), 2.27291em 2.4935em 7px rgba(255, 0, 222, 0.9), 2.48343em 2.07749em 7px rgba(0, 255, 233, 0.9), -0.43399em 1.64933em 7px rgba(0, 255, 101, 0.9), 1.21499em 1.27036em 7px rgba(0, 255, 91, 0.9), 1.04745em -0.42722em 7px rgba(0, 255, 94, 0.9), 0.43235em -0.03999em 7px rgba(255, 0, 128, 0.9), 1.67039em 2.23683em 7px rgba(140, 0, 255, 0.9), 0.64498em 1.26635em 7px rgba(255, 0, 79, 0.9), 1.4548em 0.18534em 7px rgba(0, 255, 139, 0.9), -0.42933em 0.02089em 7px rgba(0, 255, 190, 0.9), 0.98392em 2.03829em 7px rgba(91, 255, 0, 0.9), -0.12392em 1.06831em 7px rgba(0, 255, 255, 0.9), 1.76096em 2.05568em 7px rgba(0, 255, 200, 0.9), -0.27848em 0.48629em 7px rgba(255, 0, 108, 0.9), 1.29035em -0.35223em 7px rgba(255, 0, 4, 0.9), -0.39669em 2.13134em 7px rgba(158, 255, 0, 0.9), 1.0866em -0.11737em 7px rgba(255, 0, 200, 0.9), 2.13081em -0.39894em 7px rgba(0, 255, 161, 0.9), 0.05205em 2.3249em 7px rgba(176, 0, 255, 0.9), 2.02881em 2.30617em 7px rgba(0, 255, 204, 0.9), 0.77777em 0.82897em 7px rgba(255, 247, 0, 0.9), 0.86594em 1.31599em 7px rgba(134, 0, 255, 0.9), 1.17925em -0.24373em 7px rgba(25, 0, 255, 0.9), -0.46828em 1.08576em 7px rgba(0, 255, 219, 0.9), 2.09348em 1.84762em 7px rgba(0, 46, 255, 0.9), -0.13577em 0.2706em 7px rgba(153, 0, 255, 0.9), 2.165em 0.76825em 7px rgba(0, 255, 244, 0.9), 2.39041em -0.0952em 7px rgba(0, 255, 46, 0.9), -0.2025em 0.73862em 7px rgba(0, 255, 162, 0.9), 1.81222em 0.97951em 7px rgba(101, 0, 255, 0.9), -0.04492em 1.38534em 7px rgba(255, 107, 0, 0.9), 0.86105em 0.89223em 7px rgba(255, 125, 0, 0.9), 1.59745em 0.17899em 7px rgba(157, 0, 255, 0.9);
   animation-duration: 44s;
   animation-delay: -27s; }
 
 body::after {
-  text-shadow: 0.66223em 0.82589em 7px rgba(255, 0, 143, 0.9), 0.67303em 0.68123em 7px rgba(255, 0, 250, 0.9), 2.0858em 0.47879em 7px rgba(255, 145, 0, 0.9), 1.12459em 0.65427em 7px rgba(0, 112, 255, 0.9), 1.29639em 0.50029em 7px rgba(255, 0, 234, 0.9), -0.20238em 1.28228em 7px rgba(0, 255, 101, 0.9), 0.97249em 1.0694em 7px rgba(255, 0, 165, 0.9), -0.24341em 1.93753em 7px rgba(255, 0, 212, 0.9), 1.05423em 1.07346em 7px rgba(0, 16, 255, 0.9), 1.33147em 1.41632em 7px rgba(51, 255, 0, 0.9), -0.34429em 1.58933em 7px rgba(197, 0, 255, 0.9), 1.9773em 1.21934em 7px rgba(114, 0, 255, 0.9), 2.32187em 0.23474em 7px rgba(0, 255, 171, 0.9), -0.29654em 2.21108em 7px rgba(94, 0, 255, 0.9), 1.85266em 1.91384em 7px rgba(0, 225, 255, 0.9), 1.34136em 0.82984em 7px rgba(0, 176, 255, 0.9), 0.50912em 1.8067em 7px rgba(255, 0, 106, 0.9), 2.41021em 2.27631em 7px rgba(0, 255, 185, 0.9), 1.58337em 1.72281em 7px rgba(255, 0, 6, 0.9), -0.28593em 0.66546em 7px rgba(210, 0, 255, 0.9), 0.50375em -0.07469em 7px rgba(0, 147, 255, 0.9), 0.17394em 1.70399em 7px rgba(0, 255, 152, 0.9), 1.40349em 1.67792em 7px rgba(0, 235, 255, 0.9), 2.23627em 1.71841em 7px rgba(233, 0, 255, 0.9), -0.14331em 0.06278em 7px rgba(0, 255, 154, 0.9), 0.08864em 1.73208em 7px rgba(0, 26, 255, 0.9), 2.26184em 1.54645em 7px rgba(0, 178, 255, 0.9), 0.84996em 0.5262em 7px rgba(255, 0, 32, 0.9), 0.79056em 2.35121em 7px rgba(42, 0, 255, 0.9), 0.08639em 1.39562em 7px rgba(129, 0, 255, 0.9), 0.59169em 2.24131em 7px rgba(206, 255, 0, 0.9), 1.21036em 2.18062em 7px rgba(0, 120, 255, 0.9), 0.44588em 0.83229em 7px rgba(181, 0, 255, 0.9), 0.09535em 0.46675em 7px rgba(0, 66, 255, 0.9), -0.08223em 1.54767em 7px rgba(0, 255, 122, 0.9), -0.00097em 0.27149em 7px rgba(255, 2, 0, 0.9), -0.18158em 1.84653em 7px rgba(122, 0, 255, 0.9), 2.45053em 1.06337em 7px rgba(164, 255, 0, 0.9), 0.92919em 1.85822em 7px rgba(0, 76, 255, 0.9), 1.20263em 0.82306em 7px rgba(68, 0, 255, 0.9), 0.15528em -0.0305em 7px rgba(0, 210, 255, 0.9);
+  text-shadow: 0.40417em 0.0374em 7px rgba(255, 0, 134, 0.9), 0.484em 1.11866em 7px rgba(255, 0, 47, 0.9), 1.86536em 1.73435em 7px rgba(0, 255, 183, 0.9), -0.31818em 2.47053em 7px rgba(0, 255, 0, 0.9), 2.41647em 2.03796em 7px rgba(192, 255, 0, 0.9), 2.24318em 0.54218em 7px rgba(0, 100, 255, 0.9), 2.2312em 2.12073em 7px rgba(125, 0, 255, 0.9), -0.14983em 2.05064em 7px rgba(224, 0, 255, 0.9), 1.54807em 0.3621em 7px rgba(0, 255, 128, 0.9), 0.48777em 1.84671em 7px rgba(0, 117, 255, 0.9), 1.24999em 1.8638em 7px rgba(255, 247, 0, 0.9), -0.02528em 0.43247em 7px rgba(255, 0, 87, 0.9), 0.39548em 0.89844em 7px rgba(0, 255, 82, 0.9), 2.33485em -0.44569em 7px rgba(73, 255, 0, 0.9), 1.07281em 1.10692em 7px rgba(122, 0, 255, 0.9), -0.21037em -0.29114em 7px rgba(255, 134, 0, 0.9), 1.43552em 1.85599em 7px rgba(255, 149, 0, 0.9), -0.45776em 2.31699em 7px rgba(0, 255, 201, 0.9), -0.13735em 1.24059em 7px rgba(0, 255, 114, 0.9), 2.22464em 2.24082em 7px rgba(0, 255, 46, 0.9), 1.98806em 1.76962em 7px rgba(255, 0, 64, 0.9), 1.39736em 2.3527em 7px rgba(0, 255, 169, 0.9), 2.20065em 2.28179em 7px rgba(255, 41, 0, 0.9), 1.25217em -0.24039em 7px rgba(255, 0, 39, 0.9), 1.21099em 1.67464em 7px rgba(0, 216, 255, 0.9), 2.2872em 0.95826em 7px rgba(124, 0, 255, 0.9), 1.93782em 2.07818em 7px rgba(0, 255, 52, 0.9), 0.18782em 0.61495em 7px rgba(0, 220, 255, 0.9), 0.88385em 2.25479em 7px rgba(0, 255, 20, 0.9), 0.54345em 2.37022em 7px rgba(166, 0, 255, 0.9), 0.49912em -0.20692em 7px rgba(0, 255, 187, 0.9), 1.28482em 1.00057em 7px rgba(0, 138, 255, 0.9), 0.49622em 1.74432em 7px rgba(255, 0, 26, 0.9), 0.8422em 2.32737em 7px rgba(255, 0, 242, 0.9), 2.43559em 0.08358em 7px rgba(227, 0, 255, 0.9), 1.56456em 1.32123em 7px rgba(255, 0, 160, 0.9), 1.50437em 0.71061em 7px rgba(19, 255, 0, 0.9), 0.81805em 2.16014em 7px rgba(189, 255, 0, 0.9), -0.14218em 0.07778em 7px rgba(0, 255, 153, 0.9), 2.0265em -0.32846em 7px rgba(209, 255, 0, 0.9), 1.77549em 0.62871em 7px rgba(0, 255, 33, 0.9);
   animation-duration: 43s;
   animation-delay: -32s; }
 
 head::before {
-  text-shadow: 1.80908em 0.02269em 7px rgba(255, 0, 182, 0.9), 2.16818em 1.29569em 7px rgba(0, 218, 255, 0.9), 0.88583em 2.40258em 7px rgba(0, 255, 170, 0.9), 1.91122em 0.11465em 7px rgba(255, 138, 0, 0.9), 0.95694em 0.77997em 7px rgba(0, 255, 205, 0.9), -0.12017em 1.49543em 7px rgba(255, 36, 0, 0.9), 2.19782em 1.98925em 7px rgba(193, 255, 0, 0.9), 2.20707em 2.22192em 7px rgba(133, 0, 255, 0.9), 1.87573em 0.84045em 7px rgba(255, 202, 0, 0.9), 0.46229em 1.92285em 7px rgba(255, 249, 0, 0.9), -0.4033em 1.70087em 7px rgba(0, 255, 98, 0.9), -0.44997em 2.41764em 7px rgba(255, 178, 0, 0.9), 2.22677em 1.27591em 7px rgba(255, 0, 8, 0.9), 2.33902em 2.16057em 7px rgba(0, 255, 7, 0.9), 1.35727em -0.09282em 7px rgba(0, 255, 57, 0.9), 0.00276em 1.44169em 7px rgba(151, 0, 255, 0.9), 1.16509em 1.94841em 7px rgba(0, 8, 255, 0.9), 1.74691em 0.29587em 7px rgba(93, 0, 255, 0.9), 0.88012em 1.20406em 7px rgba(170, 0, 255, 0.9), 0.26255em 1.14172em 7px rgba(255, 39, 0, 0.9), 1.86228em 2.4402em 7px rgba(0, 255, 4, 0.9), 1.71274em 0.18298em 7px rgba(172, 255, 0, 0.9), 1.71197em 2.23248em 7px rgba(255, 246, 0, 0.9), 1.47042em 0.09294em 7px rgba(255, 0, 97, 0.9), 0.48628em -0.38185em 7px rgba(133, 0, 255, 0.9), -0.40178em -0.45124em 7px rgba(255, 131, 0, 0.9), 0.46776em -0.26207em 7px rgba(0, 255, 207, 0.9), -0.14507em 0.69878em 7px rgba(255, 124, 0, 0.9), 2.0996em 0.64005em 7px rgba(0, 255, 237, 0.9), 0.34927em 0.63038em 7px rgba(0, 95, 255, 0.9), 2.07639em 0.57762em 7px rgba(255, 237, 0, 0.9), 0.48237em 2.01124em 7px rgba(0, 255, 100, 0.9), 1.06547em 0.57205em 7px rgba(116, 0, 255, 0.9), 1.91482em -0.10627em 7px rgba(0, 255, 201, 0.9), 2.45911em 2.131em 7px rgba(143, 0, 255, 0.9), 1.56289em 0.01347em 7px rgba(215, 0, 255, 0.9), 0.24542em 0.85408em 7px rgba(0, 193, 255, 0.9), 0.70595em 0.57063em 7px rgba(0, 21, 255, 0.9), 0.58502em 0.64797em 7px rgba(0, 255, 103, 0.9), 0.83702em 2.0964em 7px rgba(203, 255, 0, 0.9), 2.45433em 0.68115em 7px rgba(0, 255, 88, 0.9);
+  text-shadow: 0.01633em 0.91533em 7px rgba(0, 150, 255, 0.9), 1.8767em 2.04785em 7px rgba(255, 237, 0, 0.9), 0.06722em 0.13281em 7px rgba(255, 150, 0, 0.9), 1.39557em -0.20223em 7px rgba(255, 9, 0, 0.9), -0.37733em 1.34854em 7px rgba(23, 0, 255, 0.9), 0.7231em 0.47483em 7px rgba(0, 17, 255, 0.9), 0.34678em 0.74972em 7px rgba(255, 103, 0, 0.9), 1.47891em 2.25686em 7px rgba(255, 61, 0, 0.9), 1.91006em 0.46537em 7px rgba(225, 255, 0, 0.9), 1.5942em 0.10571em 7px rgba(0, 83, 255, 0.9), 1.31931em 2.31463em 7px rgba(39, 0, 255, 0.9), -0.43395em 1.9091em 7px rgba(255, 136, 0, 0.9), 1.61811em 1.96447em 7px rgba(255, 5, 0, 0.9), -0.01878em 1.07567em 7px rgba(255, 0, 105, 0.9), 0.42001em 1.26679em 7px rgba(255, 99, 0, 0.9), 0.42384em 0.18872em 7px rgba(0, 89, 255, 0.9), 1.35791em 2.4707em 7px rgba(211, 0, 255, 0.9), 2.09204em 2.34837em 7px rgba(183, 0, 255, 0.9), 2.18836em 1.66173em 7px rgba(0, 255, 155, 0.9), 1.54141em 2.17591em 7px rgba(255, 0, 131, 0.9), 0.29692em 1.31568em 7px rgba(0, 255, 183, 0.9), 0.58061em 0.33014em 7px rgba(0, 78, 255, 0.9), 1.4639em 1.30712em 7px rgba(0, 28, 255, 0.9), 1.94314em 1.31539em 7px rgba(255, 69, 0, 0.9), 1.45413em 1.68383em 7px rgba(0, 255, 204, 0.9), 0.15801em 0.81554em 7px rgba(0, 255, 89, 0.9), 0.23533em 2.41642em 7px rgba(131, 255, 0, 0.9), -0.40681em 1.31867em 7px rgba(255, 148, 0, 0.9), 1.99605em 1.97601em 7px rgba(255, 0, 21, 0.9), 2.49407em 2.34146em 7px rgba(23, 255, 0, 0.9), 0.88412em 1.17982em 7px rgba(0, 255, 13, 0.9), 1.64507em 2.46569em 7px rgba(255, 0, 114, 0.9), 1.91691em 2.4052em 7px rgba(191, 255, 0, 0.9), 1.11719em 2.38384em 7px rgba(0, 255, 238, 0.9), 1.58132em 1.80592em 7px rgba(255, 0, 59, 0.9), 2.219em 1.91886em 7px rgba(92, 0, 255, 0.9), -0.26407em 2.43537em 7px rgba(213, 255, 0, 0.9), 0.73783em -0.13048em 7px rgba(0, 188, 255, 0.9), 0.40853em -0.26633em 7px rgba(255, 59, 0, 0.9), 0.15736em -0.27267em 7px rgba(0, 255, 124, 0.9), 1.74793em 0.55063em 7px rgba(87, 0, 255, 0.9);
   animation-duration: 42s;
   animation-delay: -23s; }
 
 head::after {
-  text-shadow: 1.65827em 0.4143em 7px rgba(0, 231, 255, 0.9), 1.73875em -0.36577em 7px rgba(255, 186, 0, 0.9), -0.32736em 1.42335em 7px rgba(0, 82, 255, 0.9), 2.07161em 0.19617em 7px rgba(255, 139, 0, 0.9), 0.8052em 0.38573em 7px rgba(77, 255, 0, 0.9), 0.37185em 1.50171em 7px rgba(189, 255, 0, 0.9), 1.26704em 1.85991em 7px rgba(255, 77, 0, 0.9), 0.32291em 0.83492em 7px rgba(255, 0, 194, 0.9), -0.01914em 1.21816em 7px rgba(0, 48, 255, 0.9), 1.66941em 1.45155em 7px rgba(226, 0, 255, 0.9), -0.02738em 0.65532em 7px rgba(101, 0, 255, 0.9), 0.78314em 2.2686em 7px rgba(0, 255, 130, 0.9), 0.43206em -0.246em 7px rgba(249, 0, 255, 0.9), -0.46363em 2.33194em 7px rgba(255, 153, 0, 0.9), 0.29528em 1.37907em 7px rgba(0, 19, 255, 0.9), 0.74747em 0.3464em 7px rgba(92, 0, 255, 0.9), 1.36568em -0.12159em 7px rgba(59, 255, 0, 0.9), 1.4672em 2.09358em 7px rgba(25, 255, 0, 0.9), -0.14906em 0.45663em 7px rgba(180, 255, 0, 0.9), 0.02237em -0.05693em 7px rgba(255, 0, 249, 0.9), 2.00297em 1.67563em 7px rgba(255, 0, 137, 0.9), 0.91438em 0.98952em 7px rgba(255, 137, 0, 0.9), 1.0005em 2.32212em 7px rgba(0, 255, 45, 0.9), -0.19154em 2.10018em 7px rgba(62, 255, 0, 0.9), -0.01122em 0.03015em 7px rgba(0, 255, 172, 0.9), 1.99067em 0.02373em 7px rgba(0, 255, 30, 0.9), 1.59644em 1.22414em 7px rgba(216, 0, 255, 0.9), 1.46702em 0.20465em 7px rgba(137, 255, 0, 0.9), -0.32213em 1.85873em 7px rgba(255, 0, 159, 0.9), 0.29558em -0.05018em 7px rgba(172, 255, 0, 0.9), 2.41613em 1.96762em 7px rgba(233, 0, 255, 0.9), 2.34749em 1.10686em 7px rgba(104, 255, 0, 0.9), 0.75723em 0.54763em 7px rgba(255, 171, 0, 0.9), 1.77744em 0.87998em 7px rgba(0, 255, 238, 0.9), 0.56356em 1.49803em 7px rgba(255, 0, 208, 0.9), -0.02475em -0.45564em 7px rgba(255, 53, 0, 0.9), 0.72988em 0.30997em 7px rgba(0, 255, 137, 0.9), 1.67917em 2.19699em 7px rgba(210, 255, 0, 0.9), 0.0154em 0.40793em 7px rgba(30, 0, 255, 0.9), 1.6069em -0.26823em 7px rgba(255, 236, 0, 0.9), 1.53285em 0.23823em 7px rgba(255, 90, 0, 0.9);
+  text-shadow: 0.14797em -0.16733em 7px rgba(255, 0, 8, 0.9), 2.48059em 2.41482em 7px rgba(255, 252, 0, 0.9), 0.07223em 0.53195em 7px rgba(207, 255, 0, 0.9), 2.2388em 1.97205em 7px rgba(0, 255, 245, 0.9), 0.14203em -0.05082em 7px rgba(0, 208, 255, 0.9), 0.88374em 1.78107em 7px rgba(0, 255, 17, 0.9), 1.54472em 0.2406em 7px rgba(121, 255, 0, 0.9), 1.10604em 0.5566em 7px rgba(221, 255, 0, 0.9), 2.05401em 0.56114em 7px rgba(127, 255, 0, 0.9), 0.07489em 0.76179em 7px rgba(5, 255, 0, 0.9), 0.65114em 0.66697em 7px rgba(0, 228, 255, 0.9), -0.42227em 1.81984em 7px rgba(255, 153, 0, 0.9), 0.6476em -0.19563em 7px rgba(0, 255, 7, 0.9), -0.34986em 1.94757em 7px rgba(148, 0, 255, 0.9), 2.11899em 1.43694em 7px rgba(0, 86, 255, 0.9), 2.188em 0.08884em 7px rgba(255, 0, 251, 0.9), 0.88672em -0.00796em 7px rgba(146, 0, 255, 0.9), 1.46054em 1.86207em 7px rgba(74, 0, 255, 0.9), 0.8018em 0.16757em 7px rgba(255, 0, 255, 0.9), 1.06052em 0.9731em 7px rgba(255, 188, 0, 0.9), 1.01859em -0.22858em 7px rgba(0, 124, 255, 0.9), 1.17888em 2.16751em 7px rgba(0, 255, 3, 0.9), 1.59432em 2.07408em 7px rgba(255, 51, 0, 0.9), 1.11056em 2.04787em 7px rgba(255, 169, 0, 0.9), 1.89982em 2.49556em 7px rgba(0, 113, 255, 0.9), 1.96319em 2.00578em 7px rgba(212, 0, 255, 0.9), -0.09385em 0.26622em 7px rgba(0, 255, 110, 0.9), 0.6468em 0.33525em 7px rgba(0, 33, 255, 0.9), 1.44296em 2.48317em 7px rgba(0, 255, 254, 0.9), -0.39019em -0.48277em 7px rgba(0, 255, 52, 0.9), -0.20874em 1.97406em 7px rgba(255, 0, 6, 0.9), 0.38835em 1.38876em 7px rgba(0, 9, 255, 0.9), 0.96459em 1.03324em 7px rgba(196, 0, 255, 0.9), 1.34715em 1.53907em 7px rgba(255, 227, 0, 0.9), 0.65443em 0.15052em 7px rgba(206, 0, 255, 0.9), 0.38157em 2.38056em 7px rgba(0, 135, 255, 0.9), 0.25488em -0.05968em 7px rgba(0, 255, 139, 0.9), 1.62949em -0.48477em 7px rgba(114, 255, 0, 0.9), 2.31917em -0.38191em 7px rgba(0, 202, 255, 0.9), -0.01431em 1.24365em 7px rgba(255, 0, 6, 0.9), 0.48663em 2.38137em 7px rgba(255, 135, 0, 0.9);
   animation-duration: 41s;
   animation-delay: -19s; }
 
@@ -63,8 +62,7 @@ header {
   top: 0;
   position: sticky;
   z-index: 3;
-  /* MENU DE NAVEGACION */
-  /* Submenu para displays pequeños e inlineblock */ }
+  /* MENU DE NAVEGACION */ }
   header .qrar {
     display: flex;
     max-width: 8rem;
@@ -102,7 +100,8 @@ header {
     text-decoration: none;
     color: #FF0080;
     font-size: 1.2rem;
-    font-family: 'Cairo', sans-serif; }
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400; }
   header nav a:hover {
     -webkit-filter: drop-shadow(3px 3px 2px #FF0080);
     filter: drop-shadow(#FF0080);
@@ -112,8 +111,6 @@ header {
     -webkit-animation: fadeOutUp 1s;
     animation: fadeOutUp 1s; }
   header .subMenu {
-    display: none; }
-  header .subList {
     display: none; }
   header .subItem {
     list-style: none;
@@ -131,9 +128,6 @@ header {
   .list {
     list-style: none;
     text-decoration: none; }
-  .subMenu:hover > .subList {
-    display: block;
-    transition: height 2s; }
   .subMenu {
     display: flex;
     flex-direction: column;
@@ -143,6 +137,9 @@ header {
     max-width: 2rem;
     color: #FF0080;
     font-size: 1.2rem; }
+  .subMenu:hover > .subList {
+    display: block;
+    transition: height 2s; }
   .subMenu a {
     display: flex;
     list-style: none;
@@ -150,7 +147,8 @@ header {
     text-decoration: none;
     color: #FF0080;
     font-size: 1.2rem;
-    font-family: 'Cairo', sans-serif; }
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700; }
   .itemList {
     display: none; }
   .subItem a {
@@ -161,6 +159,7 @@ header {
     color: #FF0080;
     font-size: 1.2rem;
     font-family: 'Cairo', sans-serif;
+    font-weight: 700;
     animation: fadeIn 2s; } }
 
 /* LANDING   */
@@ -184,25 +183,25 @@ header {
   animation: fadeIn 2;
   z-index: 3;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
   grid-template-areas: "landingtext landingimg"; }
   .landing .landing-text {
-    display: grid;
     grid-area: landingtext;
     margin: 1rem;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    align-content: center; }
     .landing .landing-text a {
       text-decoration: none;
-      color: whitesmoke; }
+      color: whitesmoke;
+      justify-content: center;
+      align-items: center; }
 
 svg#freepik_stories-qr-code:not(.animated)
 .animated {
   opacity: 0; }
 
 svg#freepik_stories-qr-code.animated {
-  display: grid;
-  grid-area: landingtext;
+  grid-area: landingimg;
   align-items: center;
   justify-content: center;
   justify-self: center; }
@@ -270,6 +269,7 @@ svg#freepik_stories-qr-code.animated #freepik--Wall--inject-2 {
   display: grid;
   grid-area: app-container;
   margin: 2rem;
+  margin-top: 2rem;
   position: relative;
   padding: 2rem;
   justify-content: center;
@@ -338,7 +338,10 @@ svg#freepik_stories-qr-code.animated #freepik--Wall--inject-2 {
 
 /* CONTACTO */
 input {
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  width: 25rem;
+  height: 35%;
+  font-size: 2rem; }
 
 select {
   border-radius: 1rem; }
@@ -390,7 +393,8 @@ select {
   justify-self: center;
   justify-content: space-between;
   -webkit-animation: fadeInUp 2s;
-  animation: fadeInUp 2s; }
+  animation: fadeInUp 2s;
+  z-index: 3; }
 
 .map1 {
   grid-area: paleta1;
@@ -487,7 +491,8 @@ select {
   justify-content: center;
   margin: 1rem;
   -webkit-animation: fadeIn 2s;
-  animation: fadeIn 2s; }
+  animation: fadeIn 2s;
+  z-index: 3; }
 
 .paleta1 {
   grid-area: paleta1;
@@ -557,7 +562,8 @@ table {
   justify-content: center;
   margin: 3rem;
   -webkit-animation: fadeInUp 2s;
-  animation: fadeInUp 2s; }
+  animation: fadeInUp 2s;
+  z-index: 3; }
 
 th {
   padding: 0.5rem;
@@ -648,8 +654,14 @@ footer {
   animation: flash 4s; }
 
 .alert {
-  background-color: #bb86fc;
-  color: #FF0080; }
+  background-color: #251935;
+  color: #FF0080;
+  font-size: 1rem;
+  font-weight: 400;
+  z-index: 2; }
+
+html {
+  font-family: 'Cairo', sans-serif; }
 
 main {
   color: #bb86fc;
@@ -661,7 +673,27 @@ main {
   grid-template-areas: "landing landing" "app-container contador-container" "menu-container menu-container";
   justify-content: center; }
 
+h1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #FF0080;
+  font-size: 5rem;
+  -webkit-animation: jackInTheBox 2s;
+  animation: jackInTheBox 2s;
+  margin: 1rem;
+  font-weight: 700; }
+
 h2 {
+  color: #bb86fc;
+  padding: 2rem;
+  margin: 2rem;
+  -webkit-animation: fadeInDown 2s;
+  animation: fadeInDown 2s;
+  text-align: center;
+  font-weight: 700; }
+
+h3 {
   color: #bb86fc;
   padding: 2rem;
   margin: 2rem;
@@ -669,12 +701,10 @@ h2 {
   -webkit-animation: fadeInDown 2s;
   animation: fadeInDown 2s;
   text-align: center;
-  font-family: 'Cairo', sans-serif;
-  font-weight: 900; }
+  font-weight: bold 900; }
 
 p {
   margin: 3rem;
-  font-family: 'Cairo', sans-serif;
   color: #bb86fc; }
 
 .menu-container {
@@ -698,21 +728,13 @@ p {
   z-index: 3; }
   .menu-container a {
     text-decoration: none;
-    color: whitesmoke; }
+    color: whitesmoke;
+    font-weight: 700; }
   .menu-container a:hover {
     color: #FF0080; }
 
-h1 {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  color: #FF0080;
-  font-size: 18px;
-  -webkit-animation: jackInTheBox 2s;
-  animation: jackInTheBox 2s;
-  margin: 1rem; }
-
 .buton {
+  display: flex;
   border-radius: 3rem;
   background-color: #332940;
   color: #FF0080;
@@ -721,8 +743,10 @@ h1 {
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin-bottom: 5fr;
-  transition: all 2s; }
+  transition: all 2s;
+  align-items: center;
+  justify-content: center;
+  align-content: center; }
 
 .buton:hover {
   color: #FF0080;
