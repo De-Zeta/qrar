@@ -71,6 +71,7 @@ body {
     animation-duration: 41s;
     animation-delay: -19s;
   }
+
   
   
   @keyframes move {
@@ -312,4 +313,9 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+}
+
+input {
+  background: none;
+  
 }
