@@ -2,6 +2,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-bottom: 4rem;
+    align-items: center;
     justify-content: space-around;
     top: 0;
     position: sticky;
@@ -9,7 +10,7 @@ header {
 
     .qrar{
         display: flex;
-        max-width: 8rem;
+        max-width: 200%;
         max-height: 8rem;
         -webkit-filter: drop-shadow(0.2em 0.2em 0.2em #000000);   
         filter: drop-shadow(#000000);
