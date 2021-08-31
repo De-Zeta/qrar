@@ -82,3 +82,234 @@ body {
     }
   }
   
+
+  
+
+.alert {
+  background-color: #251935;
+  color: #FF0080;
+  font-size: 1rem;
+  font-weight: 400;
+  z-index: 2;
+}
+
+
+html {
+  font-family: 'Cairo', sans-serif
+}
+
+main {
+  color: #bb86fc;;
+  display: grid;
+  position: relative;
+  z-index: 2;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "landing landing" "app-container contador-container" "menu-container menu-container";
+  justify-content: center;
+  
+}
+
+h1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #FF0080;
+  font-size: 5rem;
+  -webkit-animation: jackInTheBox 2s;
+  animation: jackInTheBox 2s;
+  margin: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: #bb86fc;
+  padding: 2rem;
+  margin: 2rem;
+  -webkit-animation: fadeInDown 2s;
+  animation: fadeInDown 2s;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h3 {
+  color: #FF0080;
+  padding: 2rem;
+  margin: 2rem;
+  letter-spacing: 0.5rem;
+  -webkit-animation: fadeInDown 2s;
+  animation: fadeInDown 2s;
+  text-align: center;
+  font-weight: bold 900;
+}
+
+p {
+  margin: 3rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+.menu-container {
+  display: grid;
+  grid-area: menu-container;
+  color: #bb86fc;
+  background-color: #1F1B24;
+  margin: 3rem;
+  position: relative;
+  justify-self: center;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 3rem;
+  background: rgba( 187, 134, 252, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11.0px );
+  -webkit-backdrop-filter: blur( 11.0px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2;
+  z-index: 3;
+  a {
+      text-decoration: none;
+      color: whitesmoke;
+      font-weight:700;
+
+  }
+  a:hover {
+      color: #FF0080;
+  }
+}
+
+/*Neon buttons */
+$neon: 	#cf2095;
+
+.neon-button {
+  font-weight: 500;
+  color: $neon;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border: $neon 0.125em solid;
+  padding: 0.50em 1em;
+  border-radius: 0.25em;
+
+  text-shadow: 
+  0 0 0.125em rgb(202, 132, 202),
+  0 0 0.45em $neon;
+  
+  box-shadow: inset 0 0 0.6em 0 $neon,
+  0 0 0.6em 0 $neon ;
+
+  position: relative;
+}
+
+.neon-button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: $neon;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.30);
+  filter: blur(1.2em);
+  opacity: 0.7;
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 2em 0.5em $neon;
+  opacity: 0;
+  background-color: $neon;
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon-button:hover, :focus {
+  text-shadow: none;
+  text-decoration: none;
+  z-index: 0;
+  color: black;
+
+
+}
+
+.neon-button:hover::before {
+  opacity: 1;
+
+}
+
+.neon-button:hover::after {
+  opacity: 1;
+
+}
+
+.ui-button {
+  padding: 0.1em;
+  text-align: center;
+}
+
+.buton {
+  display: flex;
+  border-radius: 3rem;
+  background-color: #332940;
+  color: #FF0080;     
+  background: rgba(136, 136, 136, 0.05);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11.0px );
+  -webkit-backdrop-filter: blur( 11.0px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transition: all 2s;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.buton:hover {
+
+  color: #FF0080;
+  -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
+  filter: drop-shadow( #FF0080); 
+  margin: 3px;
+  transform: scale(1.1,1);
+}
+
+.butonMenu  {
+  display: flex;
+  margin: 3rem;
+}
+
+.butonMenu:hover {
+
+  color: #FF0080;
+  -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
+  filter: drop-shadow( #FF0080); 
+  
+}
+
+a {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;   
+  text-decoration: none;
+  color: #FF0080;
+  font-size: 1.2rem;
+  font-family: 'Cairo', sans-serif;
+  text-decoration: none;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}

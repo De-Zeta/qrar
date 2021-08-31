@@ -57,3 +57,9 @@ select {
 .checkbox {
     flex-direction: row;
 }
+
+.fa-glass-martini-alt {
+    transform: rotate(-45deg);
+    -webkit-filter: drop-shadow(0.05em 0.05em 0.1em #FF0080);   
+    filter: drop-shadow(#FF0080);
+}

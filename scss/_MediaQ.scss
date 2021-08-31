@@ -1,0 +1,67 @@
+@media (max-width: 900px) {
+
+	header{
+		.custom-nav {
+
+		}
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+
+		h1 {
+			font-size: 10vw;
+			overflow:hidden
+
+	
+		 }
+	  
+		 h2 {
+			font-size: 5vw;
+			overflow:hidden
+	
+		 }
+	  
+	
+		.landing{
+
+			grid-template-columns: 1fr;
+			grid-template-areas:"landingtext";
+			margin-bottom: 5rem;
+			.landing-text{
+				padding: 5rem;
+				padding-bottom: 10rem;
+			}
+			.landingimg{
+				display: none;
+			}
+		}
+
+
+	}
+
+	.app-container {
+		display: flex;
+		flex-direction: column;
+		.button-box{
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			justify-items: center;
+			margin: 1.5rem;
+			
+		}
+
+	}
+
+	.contador-container{
+
+			display: flex;
+			flex-direction: column;
+			margin: 2rem;
+			margin-top: 5rem;
+
+
+	}
+}

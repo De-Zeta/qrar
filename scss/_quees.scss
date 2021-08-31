@@ -7,30 +7,33 @@ table {
     margin: 3rem;
     -webkit-animation: fadeInUp 2s;
     animation: fadeInUp 2s;
-    z-index: 3;
+    z-index: 2;
+    th {
+        padding: 0.5rem;
+        color: #03dac5;
+        background-color: #332940;
+        font-size: 1.5rem;
+        background: rgba( 187, 134, 252, 0.05 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 11.0px );
+        -webkit-backdrop-filter: blur( 11.0px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    td {
+        font-size: 1rem;
+        padding: 0.5rem;
+        background-color: #332940;
+        background: rgba( 187, 134, 252, 0.05 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 11.0px );
+        -webkit-backdrop-filter: blur( 11.0px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    
 }
 
-th {
-    padding: 0.5rem;
-    color: #03dac5;
-    background-color: #332940;
-    font-size: 1.5rem;
-    background: rgba( 187, 134, 252, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 11.0px );
-    -webkit-backdrop-filter: blur( 11.0px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
 
-td {
-    padding: 0.5rem;
-    background-color: #332940;
-    background: rgba( 187, 134, 252, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 11.0px );
-    -webkit-backdrop-filter: blur( 11.0px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
+
 
 .textSquare {
     background-color: #332940;

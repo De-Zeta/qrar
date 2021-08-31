@@ -11,19 +11,24 @@ header {
         display: flex;
         max-width: 8rem;
         max-height: 8rem;
+        -webkit-filter: drop-shadow(0.2em 0.2em 0.2em #000000);   
+        filter: drop-shadow(#000000);
         -webkit-animation: jackInTheBox 2s;
         animation: jackInTheBox 2s;
-        margin: 1rem;
+        margin: 0.5rem;
     
     }
     
     /* MENU DE NAVEGACION */
-    nav {
+    .custom-nav {
         background-color: #332940;
         display: flex;
         flex-direction: row;
         position: relative;
-        margin: 2rem;
+        justify-content: space-around;
+        margin: 3rem;
+        margin-top: 1rem;
+        margin-left: 20rem;
         border-radius: 3rem;
         background: rgba( 187, 134, 252, 0.05 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -32,9 +37,16 @@ header {
         border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
 
+    .nav-item   {
+        font-size: 1rem;
+        justify-content: space-between;
+    }
+
     .list {
         list-style: none;
         display: flex;
+        justify-content: space-between;
+        font-size: 0.5rem;
         align-content: center;
         text-align: center;
         margin: auto auto;
@@ -50,9 +62,9 @@ header {
     .itemList a {
         list-style: none;
         display: flex;
-        align-content: center;
-        justify-content: center;   
-        margin-right: 3rem;
+        align-content: space-around;
+        margin: 1rem;
+        justify-content: space-around;   
         text-decoration: none;
         color: #FF0080;
         font-size: 1.2rem;
@@ -72,23 +84,6 @@ header {
         animation: fadeOutUp 1s;    
     }
 
-
-    .subMenu {
-        display: none;
-    }
-
-
-
-    .subItem {
-            list-style: none;
-            align-content: center;
-            justify-content: center;   
-            margin-right: 3rem;
-            text-decoration: none;
-            color: #FF0080;
-            font-size: 1.2rem;
-
-    }
 }
 
 @media (max-width: 768px) {
@@ -102,52 +97,4 @@ header {
         text-decoration: none;
     }
 
-    .subMenu {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        text-decoration: none;
-        align-items: center;  
-        max-width: 2rem;
-        color: #FF0080;
-        font-size: 1.2rem;
-    }
-
-    .subMenu:hover > .subList {
-        display: block;
-        transition: height 2s
-        }
-
-
-
-
-
-
-    .subMenu a {
-        display: flex;
-        list-style: none;
-        align-items: center;
-        text-decoration: none;
-        color: #FF0080;
-        font-size: 1.2rem;
-        font-family: 'Cairo', sans-serif;
-        font-weight:700;
-        
-    }
-    
-    .itemList{
-        display: none;
-    }
-
-    .subItem a {
-        list-style: none;
-        align-items: center;
-        display: flex;
-        text-decoration: none;
-        color: #FF0080;
-        font-size: 1.2rem;
-        font-family: 'Cairo', sans-serif;
-        font-weight:700;
-        animation: fadeIn 2s;
-    }
 }
