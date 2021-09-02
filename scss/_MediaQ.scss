@@ -37,6 +37,8 @@
 			.landingimg{
 				display: none;
 			}
+
+			
 		}
 
 
@@ -63,6 +65,11 @@
 			margin: 2rem;
 			margin-top: 5rem;
 
+
+	}
+
+	.neon-button::before {
+		transform: perspective(1em) rotateX(40deg) scale(1, 0.2)
 
 	}
 }
