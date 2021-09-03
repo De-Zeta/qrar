@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- QR script-->
+    <script type="text/javascript" src="./src/lib/jquery.min.js"></script>
+<script type="text/javascript" src="./src/lib/qrcode.js"></script>
     <title>Info en capsulas</title>
 </head>
 
@@ -115,12 +119,13 @@
                 <div class="app-container" aria-label="app-box" id="app"> <!-- Container: app JS  -->
 
                 <h2> Genera tu codigo</h2>
-                <input class="my-input" type="text"  placeholder="Tu link"> </input>
+                <input class="my-input" id="text" type="text"  placeholder="Tu link"> </input>
                  <!-- app JS  -->
-                    <img src="./images/QRCode.png" alt="qr" class="qrimg">
+                 <div id="qrcode" class="qr"></div>
+
                     <div class="button-box">
-                    <a class="neon-button ui-button">Crear</a>
-                    <a class="neon-button ui-button">Imprimir</a>
+                    <a class="neon-button ui-button" onclick="makeCode()">Crear</a>
+                    <a class="neon-button ui-button" onclick="PrintElem('qrcode')">Imprimir</a>
                   </div>
                 </div>
 
@@ -212,5 +217,6 @@
         </footer>   
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+        <script src="./src/lib/index.js"></script>
+      </body>
 </html>

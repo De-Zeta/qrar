@@ -1,16 +1,15 @@
 /* CONTACTO */
 
 .my-input {
-
+    color: white;
     border-radius: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background: none;
     box-sizing: border-box;
     max-width: 100%;
     border-radius: 5rem;
     border: $neon 0.125em solid;
     border-radius: 0.25em;
-
     text-shadow: 
     0 0 0.125em rgb(202, 132, 202),
     0 0 0.45em $neon;
@@ -19,21 +18,33 @@
     0 0 0.6em 0 $neon ;
 }
 
+.my-input::placeholder {
+    color:  #FF0080;
+    opacity: 0.3;
+}
 
 
 select {
 
     border-radius: 1rem;
+    background: transparent;
+
+    option {
+        color: black;
+    }
 }
 
 
 .formu-container{
-    width: 40%;
     display: flex;
+    margin: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin: auto auto;
+    position: relative;
+    text-align: center;
     border-radius: 3rem;
     background: rgba( 187, 134, 252, 0.05 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -43,14 +54,16 @@ select {
     margin-bottom: 3rem;
     -webkit-animation: fadeIn 2s;
     animation: fadeIn 2s;
-    z-index: 3;
+    z-index: 2;
 }
 
 .g-3 {
     display: flex;
-    margin: 3rem;
+    margin: auto auto;
+    margin-bottom: 3rem;
     padding: 3rem;
     color: #bb86fc;
+    font-size: 1rem
 }
 
 .formu {
@@ -66,7 +79,7 @@ select {
     z-index: 3;
 }
 
-.checkbox {
-    flex-direction: row;
+.form-check {
+    text-align: left;
 }
 
