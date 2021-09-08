@@ -4,7 +4,7 @@
     grid-area: landing;
     color: #bb86fc;
     background-color: #1F1B24;
-    margin-top: -9.2rem;
+    margin-top: -7rem;
     margin-bottom: 5rem;
 
     position: relative;
@@ -69,7 +69,13 @@
     margin-top: 3rem;
     
 }
+@media only screen and (max-width: 1300px) {
 
+	.landingimg{
+		margin-top: 10rem;
+	}
+
+}
 svg#freepik_stories-qr-code:not(.animated) 
 .animated {
 

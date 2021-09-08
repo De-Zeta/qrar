@@ -1,4 +1,17 @@
 /* QUEES */
+.qrarch {
+    justify-self: center;
+    align-items: center;
+    width: 40%;
+    min-width: 25rem;
+    opacity: 0.8;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 5rem;
+}
+
 table {
     display: flex;
     text-align: center;
@@ -20,7 +33,10 @@ table {
         border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     td {
+        color: $neon;
+        font-weight: 500;
         font-size: 1rem;
+        filter: drop-shadow(black);
         padding: 0.5rem;
         background-color: #332940;
         background: rgba( 187, 134, 252, 0.05 );

@@ -24,60 +24,45 @@
 
     <!-- QR script-->
     <script type="text/javascript" src="./src/lib/jquery.min.js"></script>
-<script type="text/javascript" src="./src/lib/qrcode.js"></script>
+    <script type="text/javascript" src="./src/lib/qrcode.js"></script>
+    
     <title>Info en capsulas</title>
 </head>
 
 <body>
-    <div id="alert">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-        </symbol>
-      </svg>
-      <div class="alert alert-primary d-flex align-items-center" role="alert">
-        <button type="button" class="btn-close" aria-label="Close" onclick="document.getElementById('alert').style.display='none'" ></button>
-        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
-        <div>
-            <strong>¡Paciencia!</strong> Web en construcción 
-        </div>
-      </div>
-    </div>
-
     <header aria-label="header">
-      <div class="container">
-        <img src="./images/qrar.png" class="navbar-brand qrar" alt="qrar logo">
-      </a>
-    </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark custom-nav">
-            <div class="container-fluid list">
+    <nav class="menu" aria-label="navbar">
+        <div class="container qrar">
+            <img src="./images/qrar.png" class="navbar-brand qrar" alt="qrar logo">
+          </a>
+        </div>
+        
+        <div class="open-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="main-menu"> <!-- Menu de navegacion -->
+                <li><a href="./index.html"> Home </a></li>
+                <li><a href="./pages/Contacto.html"> Contacto </a></li>
+                <li><a href="./pages/Historia.html"> Historia </a></li>
+                <li><a href="./pages/Quees.html"> Que es? </a></li>
+                <li><a href="./pages/Pinta.html"> Ganate una pinta </a></li>
+                <div class="close-menu">
+                    <i class="fas fa-times"></i>
+                </div>
+        </ul>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 list ">
-                    <li class="nav-item itemList"><a href="./index.html"> Home </a></li>
-                    <li class="nav-item itemList" ><a href="./pages/Contacto.html"> Contacto </a></li>
-                    <li class="nav-item itemList"><a href="./pages/Historia.html"> Historia </a></li>
-                    <li class="nav-item itemList"><a href="./pages/Quees.html"> Que es? </a></li>
-                    <li class="nav-item itemList"><a href="./pages/Pinta.html"> Ganate una pinta </a></li>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+
+    </nav>   
 
     </header>
     
-        <main aria-label="main-box" id="subir"> <!-- Container padre  -->
+        <main class="main-index" aria-label="main-box" id="subir"> <!-- Container padre  -->
 
             <div class="landing" aria-label="landing">
                 
                 <div class="landing-text">
-                <i class="fas fa-bullhorn"></i> <h1>Una nueva forma de comunicarte</h1> 
+                <i class="fas fa-bullhorn general-ico"></i> <h1>Una nueva forma de comunicarte</h1> 
                 <h2> Comparti lo que piensas y pegalo donde quieras </h2>
                 <a href="#app" class="neon-button"> Comenzar!</a>
                 </div>
@@ -124,7 +109,7 @@
                  <div id="qrcode" class="qr"></div>
 
                     <div class="button-box">
-                    <a class="neon-button ui-button" onclick="makeCode()">Crear</a>
+                    <a class="neon-button ui-button" onclick="makeCode(), box()">Crear</a>
                     <a class="neon-button ui-button" onclick="PrintElem('qrcode')">Imprimir</a>
                   </div>
                 </div>
@@ -134,69 +119,17 @@
 
                     <h2> Contador </h2> <!-- Container: contador  -->
                         <h3> 300 <i class="fas fa-comment"></i></h3> 
-                        <p> QR generados! </p> <!-- contador  -->
+                        <p> QR generados hoy! </p> <!-- contador  -->
 
                 </div>
 
 
-            <div class="menu-container" aria-label="QR-info"> <!-- Container: Menu - 'Que es?' -->
-                <p>
-                    <a class="btn btn-dark butonMenu" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Que es un codigo QR?</a>
-                    <button class="btn btn-dark butonMenu" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">QR vs barras</button>
-                  </p>
-                  <div class="row">
-                    <div class="col">
-                      <div class="collapse multi-collapse" id="multiCollapseExample1">
-                        <div class="menu-container">
-                            <p>Un <strong>código QR</strong> (del inglés Quick Response code, 'código de respuesta rápida') es la evolución del código de barras. Es un módulo para almacenar información en una matriz de puntos o en un código de barras bidimensional. La matriz se lee en el dispositivo móvil por un lector específico (lector de QR) y de forma inmediata nos lleva a una aplicación en internet y puede ser un mapa de localización, un correo electrónico, una página web o un perfil en una red social.</p>
-
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="collapse multi-collapse" id="multiCollapseExample2" aria-label="info">
-                        <div class="menu-container" aria-label="tabla">
-                            <table>
-                                <tr>
-                                    <th></th>
-                                    <th> Codigo QR </th>
-                                    <th> Codigo de barras </th>
-                                </tr>
-                                <tr>
-                                    <td><strong> Capacidad </strong></td>
-                                    <td> 7089 caracteres</td>
-                                    <td> 106 caracteres </td>
-                                </tr>
-                                <tr>
-                                    <td><strong> Accesibilidad </strong></td>
-                                    <td> Pueden ser leídos por teléfonos inteligentes, tablets y computadoras. </td>
-                                    <td> Solo pueden ser leídos por lectores de código de barras </td>
-                                </tr>
-                                <tr>
-                                    <td><strong> Aceptacion masiva </strong></td>
-                                    <td>
-                                        <ol>
-                                            <li> Redes sociales </li>
-                                            <li> Webs </li>
-                                            <li> Apps </li>
-                        
-                                        </ol>
-                                    </td>
-                                    <td> 
-                                        <ol>
-                                            <li> Logistica </li>
-                                            <li> Comercial </li>
-                                            <li> Packaging </li>
-                                        </ol>
-                                    </td>
-                                </tr>
-                        
-                        </table>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="menu-container" aria-label="QR-info"> <!-- instructivo -->
+                <i class="far fa-question-circle general-ico"></i>
+                <h2 class="instruct"> ¿Que hacemos?</h2>
+                <p>Introducí el link que deseas convertir y dale al botón <strong>"crear"</strong>. Tambien puedes imprimirlo (solo en PC)  </p>
             </div>
+
 
         </main>
 
@@ -205,7 +138,7 @@
 
             <div class="redes"> 
 
-                <a href=#app>Subir al cielo</a>
+                <a class="sube" href=#app>Subir al cielo</a>
 
                     <ul> <!-- Nav de footer -->
                         <li><a href='https://www.instagram.com'><img src="./images/ig.svg" alt="ig-logo" class="igimg"></a></li>
@@ -217,6 +150,7 @@
         </footer>   
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
         <script src="./src/lib/index.js"></script>
       </body>
 </html>

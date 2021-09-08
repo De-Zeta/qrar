@@ -1,14 +1,11 @@
-@media (max-width: 900px) {
+
+
+@media only screen and (max-width: 1065px) {
 
 
 
-	header{
-		.custom-nav {
 
-		}
-	}
-
-	main {
+	.main-index {
 		display: flex;
 		flex-direction: column;
 
@@ -31,7 +28,19 @@
 
 			
 		}
+		.contador-container{
 
+			display: flex;
+			flex-direction: column;
+			margin: 2rem;
+			margin-top: 3rem;
+			h2 {
+				font-size: 2.5rem;
+				overflow:hidden
+		
+			 }
+
+	}
 
 	}
 
@@ -47,19 +56,7 @@
 
 	}
 
-	.contador-container{
 
-			display: flex;
-			flex-direction: column;
-			margin: 2rem;
-			margin-top: 5rem;
-			h2 {
-				font-size: 2.5rem;
-				overflow:hidden
-		
-			 }
-
-	}
 
 	.neon-button::before {
 		transform: perspective(1em) rotateX(40deg) scale(1, 0.2);
@@ -79,15 +76,15 @@
 
 	 }
 
+
+
+
+
 }
-
-
 
 @media only screen and (max-width: 500px) {
 
-	.custom-nav {
-		margin-left: 0;
-	}
+
 
 	.menu-container {
 		margin: 1rem;
@@ -102,7 +99,7 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
 	a {
 		font-size: 5vw;
 	}

@@ -1,10 +1,4 @@
 header {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin-bottom: 4rem;
-    align-items: center;
-    justify-content: space-around;
-    top: 0;
     position: sticky;
     z-index: 3;
 
@@ -16,86 +10,158 @@ header {
         filter: drop-shadow(#000000);
         -webkit-animation: jackInTheBox 2s;
         animation: jackInTheBox 2s;
-        margin: 0.5rem;
     
     }
     
     /* MENU DE NAVEGACION */
-    .custom-nav {
-        background-color: #332940;
+    .menu {
         display: flex;
         flex-direction: row;
         position: relative;
-        justify-content: space-around;
-        margin: 3rem;
-        margin-top: 1rem;
-        margin-left: 7rem;
-        border-radius: 3rem;
-        background: rgba( 187, 134, 252, 0.05 );
+        justify-content: space-between;
+        margin: 1rem;
+        margin-top: 0rem;
+        margin-right: 3rem;
+
+    }
+
+}
+
+.main-menu {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 0.5rem;
+   margin-right: 3rem;
+   border-radius: 3rem;
+   background: rgba( 187, 134, 252, 0.05 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 11.0px );
+   -webkit-backdrop-filter: blur( 11.0px );
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   ul::marker {
+       display: none;
+   }
+    li {
+        margin: 1rem;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        -webkit-animation: fadeInDown 2s;
+        animation: fadeInDown 2s;         
+        
+        a {
+            font-size: 1.5rem;
+            margin-right: 2rem;
+            display: inline-block;
+            text-decoration: none;
+            color: #FF0080;
+            font-weight: 300;
+          
+        }
+        a:hover {
+            filter: drop-shadow($neon);
+            -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
+            -webkit-animation: flash 4s;
+            animation: flash 4s;
+        }
+        a:active {
+            -webkit-animation: fadeOutUp 2s;
+            animation: fadeOutUp 2s;            
+        }
+    }
+    li:active {
+        -webkit-animation: fadeOutUp 2s;
+        animation: fadeOutUp 2s;            
+    }
+}
+ul.show {
+    top: 65px;
+}
+.open-menu {
+    font-size: 3rem;
+    margin: 1rem;
+    display: none;
+    cursor: pointer;
+    color: #FF0080;
+    -webkit-filter: drop-shadow(0.2em 0.2em 0.2em #000000);   
+    filter: drop-shadow(#000000);
+    position: sticky;
+    z-index: 3;
+    top: 0
+}
+
+.close-menu {
+    font-size: 3rem;
+    display: none;
+    cursor: pointer;
+    color: #FF0080;
+}
+    
+
+
+@media only screen and (max-width: 960px) {
+    .main-menu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background: rgba(30, 22, 41, 0.52);
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 11.0px );
         -webkit-backdrop-filter: blur( 11.0px );
         border: 1px solid rgba( 255, 255, 255, 0.18 );
+        transition: top 1s ease;
+        display: none;
+        
+        .close-menu {
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 2rem;
+            color: #FF0080;
+        }
+        li a{
+            font-weight: 400;
+            -webkit-filter: drop-shadow(0.2em 0.2em 0.2em #000000);   
+            filter: drop-shadow(#000000);
+            -webkit-animation: fadeInDown 2s;
+            animation: fadeInDown 2s;
+        }
+        li a:hover {
+            background: none;
+            color: #FF0080;
+            font-size: 1.6rem;
+            
+        }
+
     }
-
-    .nav-item   {
-        font-size: 1rem;
-        justify-content: space-between;
-    }
-
-    .list {
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        font-size: 0.5rem;
-        align-content: center;
-        text-align: center;
-        margin: auto auto;
-        position: relative;
-        -webkit-animation: fadeInDown 2s;
-        animation: fadeInDown 2s;
-
-
-    }
-
-
-
-    .itemList a {
-        list-style: none;
-        display: flex;
-        align-content: space-around;
-        margin: 1rem;
-        justify-content: space-around;   
-        text-decoration: none;
+    .open-menu {
+        display: block;
         color: #FF0080;
-        font-size: 1.2rem;
-        font-family: 'Cairo', sans-serif;
-        font-weight:400;
-    }
+        font-size: 3rem;
+        position: sticky;
+        z-index: 3;
+        top: 0
 
-    nav a:hover {
-        -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
-        filter: drop-shadow( #FF0080); 
-        -webkit-animation: flash 3s;
-        animation: flash 3s;
     }
+    .close-menu {
+        display: block;
+        position: absolute;
 
-    nav a:focus {
-        -webkit-animation: fadeOutUp 1s;
-        animation: fadeOutUp 1s;    
+        color: #FF0080;
     }
-
+    li a:hover {
+        background: none;
+        font-size: 1.6rem;
+    }
 }
 
-@media (max-width: 768px) {
-	main {
-		grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-	}
-
-    .list {
-        list-style: none;
-        text-decoration: none;
-    }
-
-}

@@ -24,37 +24,40 @@
     <title>Info en capsulas</title>
 </head>
 
+<body>
 <header aria-label="header">
-  <div class="container">
-    <img src="../images/qrar.png" class="navbar-brand qrar" alt="qrar logo">
-  </a>
-</div>
-
-    <nav class="navbar navbar-expand-lg navbar-dark custom-nav">
-        <div class="container-fluid list">
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 list ">
-                <li class="nav-item itemList"><a href="../index.html"> Home </a></li>
-                <li class="nav-item itemList" ><a href="./Contacto.html"> Contacto </a></li>
-                <li class="nav-item itemList"><a href="./Historia.html"> Historia </a></li>
-                <li class="nav-item itemList"><a href="./Quees.html"> Que es? </a></li>
-                <li class="nav-item itemList"><a href="./Pinta.html"> Ganate una pinta </a></li>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
 
-</header>
+  <nav class="menu" aria-label="navbar">
+      <div class="container">
+          <img src="../images/qrar.png" class="navbar-brand qrar" alt="qrar logo">
+        </a>
+      </div>
+      
+      <div class="open-menu">
+          <i class="fas fa-bars"></i>
+      </div>
+      <ul class="main-menu"> <!-- Menu de navegacion -->
+              <li><a href="../index.html"> Home </a></li>
+              <li><a href="./Contacto.html"> Contacto </a></li>
+              <li><a href="./Historia.html"> Historia </a></li>
+              <li><a href="./Quees.html"> Que es? </a></li>
+              <li><a href="./Pinta.html"> Ganate una pinta </a></li>
+              <div class="close-menu">
+                  <i class="fas fa-times"></i>
+              </div>
+      </ul>
+
+
+  </nav>   
+
+  </header>
+
+
 
 <div class=formu-container>
 
-        <i class="fas fa-history"></i>
+        <i class="far fa-paper-plane general-ico"></i>
         <h1>Mandanos un mensaje</h1>
 
         <form class="row g-3">
@@ -124,35 +127,6 @@
 
         
 
-    <!--        
-        <form class="formu">
-        <label for="nombre" > Nombre </label>
-        <input type="text" name="nombre" placeholder="John"></input>
-        
-        <label for="apellido"> Apellido </label>
-        <input type="text" name="apellido" placeholder="Doe"></input>
-        
-        <label for="email"> Correo electronico </label>
-        <input type="email" name="email" placeholder="lalala@lalala.la"></input>
-        
-
-        <select name="Estado civil">
-            <option value="Soltero/a"> Soltero/a </option>
-            <option value="Casado/a"> Casado/a </option>
-            <option value="Queti"> Que te importa? </option>
-        </select>
-
-        <div class="checkbox">
-        <label for="checkb"> Deseas suscribirte a QRar? </label>
-        <input type="checkbox" name="checkb"></input>
-        </div>
-        
-        <textarea placeholder="Por que nos contactas?" ></textarea>
-
-        <input type="submit" value="enviar formulario"></input>
-        <input type="reset" value="Limpiar datos"></input>
-        
-    </form> -->
 </div>
 
 <footer> <!-- footer -->
@@ -169,3 +143,5 @@
 
 </footer>   
 
+<script src="../src/lib/nav.js"></script>
+</body>

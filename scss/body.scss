@@ -28,7 +28,7 @@ body {
   }
   
   body, head {
-    background-size: cover;
+    background-size: 200%;
     display: block;
     font-size: 52px;
     color: transparent;
@@ -86,20 +86,11 @@ body {
 
   
 
-.alert {
-  background-color: #251935;
-  color: #FF0080;
-  font-size: 1rem;
-  font-weight: 400;
-  z-index: 2;
-}
-
-
 html {
   font-family: 'Cairo', sans-serif
 }
 
-main {
+.main-index {
   color: #bb86fc;;
   display: grid;
   position: relative;
@@ -145,10 +136,16 @@ h3 {
   font-weight: bold 900;
 }
 
+.instruct {
+  margin: 1rem;
+}
+
 p {
   margin: 3rem;
   font-size: 1rem;
   text-align: center;
+  font-weight: 500;
+  color: #FF0080;
 }
 
 
@@ -185,15 +182,18 @@ p {
   }
 }
 
+/*Neon buttons */
+$neon: 	#cf2095;
 
 .general-ico {
+  color: #cf2095;
   margin-top: 2rem;
   -webkit-filter: drop-shadow(0.05em 0.05em 0.1em #FF0080);   
   filter: drop-shadow(#FF0080);
+
 }
 
-/*Neon buttons */
-$neon: 	#cf2095;
+
 
 .neon-button {
   font-weight: 500;
@@ -244,7 +244,7 @@ $neon: 	#cf2095;
   transition: opacity 100ms linear;
 }
 
-.neon-button:hover, :focus {
+.neon-button:hover, :focus{
   text-shadow: none;
   text-decoration: none;
   z-index: 0;
@@ -263,66 +263,29 @@ $neon: 	#cf2095;
 
 }
 
+
+
 .ui-button {
-  padding: 0.1em;
+  padding: 0.3em;
   text-align: center;
 }
 
-.buton {
-  display: flex;
-  border-radius: 3rem;
-  background-color: #332940;
-  color: #FF0080;     
-  background: rgba(136, 136, 136, 0.05);
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 11.0px );
-  -webkit-backdrop-filter: blur( 11.0px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  transition: all 2s;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-.buton:hover {
-
-  color: #FF0080;
-  -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
-  filter: drop-shadow( #FF0080); 
-  margin: 3px;
-  transform: scale(1.1,1);
-}
-
-.butonMenu  {
-  display: flex;
-  margin: 3rem;
-}
-
-.butonMenu:hover {
-
-  color: #FF0080;
-  -webkit-filter: drop-shadow(3px 3px 2px #FF0080);      
-  filter: drop-shadow( #FF0080); 
-  
-}
-
-a {
-  list-style: none;
-  display: flex;
-  align-content: center;
-  justify-content: center;   
-  text-decoration: none;
-  color: #FF0080;
-  font-size: 1.2rem;
-  font-family: 'Cairo', sans-serif;
-  text-decoration: none;
-  color: whitesmoke;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
+.sube:active {
+  -webkit-animation: fadeOutUp 2s;
+  animation: fadeOutUp 2s;
 }
 
 input {
   background: none;
   
+}
+
+.nada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  -webkit-animation: zoomInRight 2s;
+  animation: zoomInRight 2s;
 }

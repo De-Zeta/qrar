@@ -41,10 +41,13 @@
     display: flex;
     align-items: center;
     justify-self: center;
-    margin: 2rem;
+    margin: 1rem;
     -webkit-animation: bounceInDown 2s;
     animation: bounceInDown 2s;
-    transition: all 2s
+    transition: all 2s;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
    
 }
 
@@ -56,7 +59,8 @@
     margin: 2rem;
     -webkit-animation: bounceInDown 2s;
     animation: bounceInDown 2s;
-    transition: all 2s
+    transition: all 2s;
+    
 }
 
 

@@ -12,7 +12,7 @@ html {
   background: #123; }
 
 body, head {
-  background-size: cover;
+  background-size: 200%;
   display: block;
   font-size: 52px;
   color: transparent;
@@ -30,22 +30,22 @@ body::before, body::after {
   animation: 44s -27s move infinite ease-in-out alternate; }
 
 body::before {
-  text-shadow: 1.79146em 2.30437em 7px rgba(173, 255, 0, 0.9), 1.16757em 0.49275em 7px rgba(255, 22, 0, 0.9), 1.82505em 0.02387em 7px rgba(255, 0, 125, 0.9), 1.61738em 0.67197em 7px rgba(255, 0, 175, 0.9), 0.7036em 2.31019em 7px rgba(255, 0, 151, 0.9), 1.78416em -0.39141em 7px rgba(0, 139, 255, 0.9), 1.41758em 0.42343em 7px rgba(0, 255, 117, 0.9), 1.25531em -0.11473em 7px rgba(0, 255, 94, 0.9), 0.6062em 2.30212em 7px rgba(255, 0, 158, 0.9), 2.35842em 2.4799em 7px rgba(19, 0, 255, 0.9), 1.81793em 0.18258em 7px rgba(162, 0, 255, 0.9), 1.37842em 0.8902em 7px rgba(0, 220, 255, 0.9), 2.46855em 0.38328em 7px rgba(86, 0, 255, 0.9), 0.06069em 2.30645em 7px rgba(0, 255, 206, 0.9), -0.35358em 0.68104em 7px rgba(148, 0, 255, 0.9), -0.41624em 1.87693em 7px rgba(0, 255, 239, 0.9), 2.38773em 0.74691em 7px rgba(63, 0, 255, 0.9), 1.5411em 1.76572em 7px rgba(0, 143, 255, 0.9), 1.88913em 1.74726em 7px rgba(0, 56, 255, 0.9), 0.80956em 0.09823em 7px rgba(0, 164, 255, 0.9), 2.46378em 1.44307em 7px rgba(0, 99, 255, 0.9), 1.66565em 1.28403em 7px rgba(255, 0, 251, 0.9), 0.09002em 1.33175em 7px rgba(0, 56, 255, 0.9), 0.47106em 2.17242em 7px rgba(255, 0, 181, 0.9), -0.30116em -0.15696em 7px rgba(255, 241, 0, 0.9), 0.06993em 0.56331em 7px rgba(245, 0, 255, 0.9), 1.57065em 1.04405em 7px rgba(255, 82, 0, 0.9), 1.64671em 1.84593em 7px rgba(0, 19, 255, 0.9), 0.94071em 0.38309em 7px rgba(97, 0, 255, 0.9), 0.98795em 1.44262em 7px rgba(0, 9, 255, 0.9), 0.58531em -0.49942em 7px rgba(255, 0, 246, 0.9), 1.46395em 0.05726em 7px rgba(43, 255, 0, 0.9), 2.05956em 0.97329em 7px rgba(98, 0, 255, 0.9), 0.93062em 2.23863em 7px rgba(255, 0, 148, 0.9), 0.55775em 0.97627em 7px rgba(255, 0, 7, 0.9), 1.37224em 0.54479em 7px rgba(108, 0, 255, 0.9), 1.37475em 1.4364em 7px rgba(189, 0, 255, 0.9), 1.45998em 1.90303em 7px rgba(139, 255, 0, 0.9), 0.68504em 0.404em 7px rgba(0, 195, 255, 0.9), 2.05231em 0.04621em 7px rgba(255, 0, 190, 0.9), 0.37273em 0.09967em 7px rgba(0, 255, 242, 0.9);
+  text-shadow: -0.45646em 2.03144em 7px rgba(18, 255, 0, 0.9), 0.88883em 0.90846em 7px rgba(212, 0, 255, 0.9), 0.29906em 2.32442em 7px rgba(255, 0, 232, 0.9), -0.12545em -0.14831em 7px rgba(81, 255, 0, 0.9), -0.26965em 1.48408em 7px rgba(63, 0, 255, 0.9), 1.02123em -0.11978em 7px rgba(115, 255, 0, 0.9), 2.25639em 1.33504em 7px rgba(0, 255, 212, 0.9), -0.01678em 2.12805em 7px rgba(255, 61, 0, 0.9), 0.99398em 1.80105em 7px rgba(172, 255, 0, 0.9), 1.93971em 1.80644em 7px rgba(255, 232, 0, 0.9), 1.10447em 0.98533em 7px rgba(192, 255, 0, 0.9), 2.10883em -0.05166em 7px rgba(0, 255, 59, 0.9), 1.97807em 0.4599em 7px rgba(0, 255, 83, 0.9), 0.80208em 1.96159em 7px rgba(0, 255, 77, 0.9), -0.09447em 0.22482em 7px rgba(62, 0, 255, 0.9), -0.30636em -0.08862em 7px rgba(18, 255, 0, 0.9), 1.817em 0.69664em 7px rgba(56, 0, 255, 0.9), 0.37513em 1.67009em 7px rgba(0, 117, 255, 0.9), 1.83697em 0.11929em 7px rgba(133, 255, 0, 0.9), 1.72739em 0.2427em 7px rgba(0, 86, 255, 0.9), 2.14557em 2.05433em 7px rgba(255, 102, 0, 0.9), 1.17959em 0.36052em 7px rgba(255, 0, 30, 0.9), -0.30806em -0.35916em 7px rgba(105, 0, 255, 0.9), 1.13711em 1.06895em 7px rgba(255, 0, 147, 0.9), 1.63801em 0.37961em 7px rgba(0, 246, 255, 0.9), 0.02357em 0.51763em 7px rgba(255, 4, 0, 0.9), 0.03704em 1.62909em 7px rgba(225, 0, 255, 0.9), 1.65929em 0.42782em 7px rgba(0, 255, 38, 0.9), 0.66889em 0.57296em 7px rgba(0, 255, 82, 0.9), 0.38321em -0.00743em 7px rgba(255, 157, 0, 0.9), 1.33999em 2.47835em 7px rgba(0, 12, 255, 0.9), -0.26288em 0.17124em 7px rgba(255, 153, 0, 0.9), -0.45406em 1.48857em 7px rgba(0, 2, 255, 0.9), 1.61373em 0.42595em 7px rgba(255, 0, 126, 0.9), 1.34881em 1.39403em 7px rgba(255, 0, 228, 0.9), 0.13039em -0.31481em 7px rgba(208, 0, 255, 0.9), -0.07828em 1.26909em 7px rgba(0, 255, 245, 0.9), 0.52811em 1.15737em 7px rgba(255, 207, 0, 0.9), 0.0775em 0.70955em 7px rgba(155, 0, 255, 0.9), -0.06274em 1.25175em 7px rgba(0, 59, 255, 0.9), 0.00565em 1.35547em 7px rgba(0, 255, 59, 0.9);
   animation-duration: 44s;
   animation-delay: -27s; }
 
 body::after {
-  text-shadow: 1.84357em -0.15065em 7px rgba(255, 0, 205, 0.9), 1.4986em 2.29021em 7px rgba(249, 0, 255, 0.9), 0.55309em 2.2698em 7px rgba(71, 255, 0, 0.9), -0.333em 1.39055em 7px rgba(0, 255, 42, 0.9), 0.06497em -0.16896em 7px rgba(79, 255, 0, 0.9), 0.23788em 0.34187em 7px rgba(15, 255, 0, 0.9), -0.35979em 0.77805em 7px rgba(255, 0, 39, 0.9), 0.97641em -0.2895em 7px rgba(99, 0, 255, 0.9), 2.1307em 2.06064em 7px rgba(255, 24, 0, 0.9), 0.60354em 1.99488em 7px rgba(255, 110, 0, 0.9), 0.3008em 1.27837em 7px rgba(0, 16, 255, 0.9), 0.13745em 1.28839em 7px rgba(92, 255, 0, 0.9), 0.04215em 2.47794em 7px rgba(95, 255, 0, 0.9), -0.29484em -0.32591em 7px rgba(0, 255, 120, 0.9), 1.73885em -0.00882em 7px rgba(0, 8, 255, 0.9), 1.72523em 1.35643em 7px rgba(255, 59, 0, 0.9), 0.00371em 0.52563em 7px rgba(0, 255, 72, 0.9), 0.72277em 1.38623em 7px rgba(0, 255, 182, 0.9), 2.46281em -0.18084em 7px rgba(0, 255, 19, 0.9), -0.26876em 0.15494em 7px rgba(0, 29, 255, 0.9), 1.2955em 1.28852em 7px rgba(255, 0, 129, 0.9), 0.08136em 0.25563em 7px rgba(0, 174, 255, 0.9), -0.17838em 1.08596em 7px rgba(255, 157, 0, 0.9), 0.45821em 2.01839em 7px rgba(0, 28, 255, 0.9), -0.36143em 1.59943em 7px rgba(52, 255, 0, 0.9), 2.29931em 2.07136em 7px rgba(126, 255, 0, 0.9), 0.42658em 2.033em 7px rgba(0, 25, 255, 0.9), 0.72439em 2.38246em 7px rgba(255, 148, 0, 0.9), -0.12584em 1.92279em 7px rgba(0, 100, 255, 0.9), 0.35759em 1.02734em 7px rgba(0, 45, 255, 0.9), 0.00011em 0.16475em 7px rgba(0, 255, 29, 0.9), 0.5074em 0.65515em 7px rgba(255, 0, 110, 0.9), 0.61649em 1.73089em 7px rgba(0, 255, 174, 0.9), 1.55831em -0.127em 7px rgba(255, 194, 0, 0.9), 0.08959em 0.37617em 7px rgba(135, 0, 255, 0.9), 1.33722em 0.97939em 7px rgba(139, 0, 255, 0.9), 1.20209em 0.09828em 7px rgba(0, 53, 255, 0.9), -0.05084em 1.17059em 7px rgba(0, 255, 194, 0.9), 1.07701em 0.20993em 7px rgba(19, 255, 0, 0.9), -0.07854em 1.09577em 7px rgba(255, 0, 78, 0.9), 0.72332em 0.12831em 7px rgba(37, 255, 0, 0.9);
+  text-shadow: 0.10396em 0.8953em 7px rgba(61, 255, 0, 0.9), -0.44134em 0.56727em 7px rgba(183, 0, 255, 0.9), 1.17119em 1.87272em 7px rgba(0, 45, 255, 0.9), 2.44072em 1.94783em 7px rgba(255, 0, 95, 0.9), -0.35962em -0.18851em 7px rgba(223, 255, 0, 0.9), 1.5986em 0.38061em 7px rgba(207, 255, 0, 0.9), 1.40838em 2.45548em 7px rgba(0, 28, 255, 0.9), 2.18883em 2.38818em 7px rgba(255, 166, 0, 0.9), 1.13872em 0.16964em 7px rgba(0, 230, 255, 0.9), 1.74081em 1.34355em 7px rgba(0, 255, 49, 0.9), 1.44416em 0.37709em 7px rgba(255, 0, 184, 0.9), 1.24298em 0.24141em 7px rgba(0, 255, 64, 0.9), -0.06656em 1.32519em 7px rgba(0, 255, 79, 0.9), 2.30753em -0.16082em 7px rgba(0, 124, 255, 0.9), 1.44833em 0.00711em 7px rgba(0, 222, 255, 0.9), 1.59991em 0.75007em 7px rgba(255, 0, 127, 0.9), 1.77118em 0.54092em 7px rgba(255, 0, 144, 0.9), -0.4722em 2.10227em 7px rgba(111, 0, 255, 0.9), 0.24088em 0.88173em 7px rgba(255, 223, 0, 0.9), 0.15266em 1.66664em 7px rgba(153, 0, 255, 0.9), 2.03087em 0.74171em 7px rgba(255, 155, 0, 0.9), 0.51352em 0.05924em 7px rgba(46, 0, 255, 0.9), 1.87512em 1.59422em 7px rgba(255, 139, 0, 0.9), 0.04014em -0.28143em 7px rgba(0, 255, 111, 0.9), -0.07503em 1.71571em 7px rgba(191, 0, 255, 0.9), 0.34189em 1.04624em 7px rgba(0, 255, 241, 0.9), 2.20835em 1.63454em 7px rgba(255, 146, 0, 0.9), 2.26669em -0.39371em 7px rgba(0, 213, 255, 0.9), 1.48991em 0.63728em 7px rgba(0, 31, 255, 0.9), 0.93699em 1.49111em 7px rgba(0, 43, 255, 0.9), 1.58097em 1.29916em 7px rgba(255, 0, 189, 0.9), 0.9408em 1.35057em 7px rgba(255, 0, 119, 0.9), 1.81665em 0.35081em 7px rgba(19, 0, 255, 0.9), -0.24879em 0.97937em 7px rgba(255, 255, 0, 0.9), 0.77696em -0.49196em 7px rgba(0, 173, 255, 0.9), 1.43926em 1.05308em 7px rgba(255, 0, 255, 0.9), 2.39782em 1.25819em 7px rgba(211, 255, 0, 0.9), 0.65901em 0.26941em 7px rgba(0, 255, 187, 0.9), -0.42111em 1.88405em 7px rgba(0, 255, 155, 0.9), -0.03443em 1.6181em 7px rgba(240, 255, 0, 0.9), 0.63832em 0.44555em 7px rgba(148, 0, 255, 0.9);
   animation-duration: 43s;
   animation-delay: -32s; }
 
 head::before {
-  text-shadow: 1.92659em 1.0005em 7px rgba(0, 255, 41, 0.9), -0.07028em -0.38241em 7px rgba(80, 0, 255, 0.9), 1.92275em 1.4151em 7px rgba(255, 0, 239, 0.9), 0.19224em -0.08737em 7px rgba(222, 0, 255, 0.9), -0.05531em 2.19255em 7px rgba(0, 255, 53, 0.9), 1.81385em 2.37243em 7px rgba(255, 121, 0, 0.9), 0.43981em 1.54825em 7px rgba(255, 0, 4, 0.9), 2.2595em 2.23052em 7px rgba(115, 255, 0, 0.9), 0.44997em 1.6222em 7px rgba(255, 254, 0, 0.9), 0.82313em 1.89713em 7px rgba(227, 255, 0, 0.9), 2.42592em 1.46162em 7px rgba(0, 162, 255, 0.9), 2.37112em 0.99053em 7px rgba(0, 40, 255, 0.9), 1.16124em 0.72335em 7px rgba(241, 255, 0, 0.9), 0.02473em 0.10327em 7px rgba(255, 198, 0, 0.9), -0.29773em 0.27126em 7px rgba(255, 34, 0, 0.9), 2.10045em 0.48803em 7px rgba(247, 255, 0, 0.9), 2.42924em -0.47137em 7px rgba(255, 120, 0, 0.9), 0.6379em 0.47091em 7px rgba(0, 255, 14, 0.9), 2.17461em 0.28465em 7px rgba(255, 8, 0, 0.9), 0.81628em 0.31783em 7px rgba(255, 192, 0, 0.9), 0.25368em -0.02248em 7px rgba(0, 255, 156, 0.9), 0.637em -0.11292em 7px rgba(0, 255, 6, 0.9), 0.4812em 1.6951em 7px rgba(141, 0, 255, 0.9), 0.84043em 0.69947em 7px rgba(255, 0, 195, 0.9), 1.27493em 2.24786em 7px rgba(255, 198, 0, 0.9), -0.40374em 1.4388em 7px rgba(233, 0, 255, 0.9), -0.42367em 1.95149em 7px rgba(0, 255, 2, 0.9), 2.08198em 1.45931em 7px rgba(230, 0, 255, 0.9), 2.00274em 1.39699em 7px rgba(81, 0, 255, 0.9), 0.74684em 0.75025em 7px rgba(0, 62, 255, 0.9), 1.80903em 1.54044em 7px rgba(87, 255, 0, 0.9), 0.45012em 0.15739em 7px rgba(255, 0, 21, 0.9), 1.14519em 0.90892em 7px rgba(255, 0, 68, 0.9), 1.16508em 1.87565em 7px rgba(151, 255, 0, 0.9), 2.36847em 1.58394em 7px rgba(255, 0, 155, 0.9), 0.74167em 2.43157em 7px rgba(0, 255, 127, 0.9), -0.20452em -0.31634em 7px rgba(221, 255, 0, 0.9), 1.3476em 0.40734em 7px rgba(255, 0, 47, 0.9), -0.0862em 1.94014em 7px rgba(0, 252, 255, 0.9), 2.1755em 2.14464em 7px rgba(255, 0, 236, 0.9), 2.16717em 2.04993em 7px rgba(0, 171, 255, 0.9);
+  text-shadow: 2.21693em 1.19849em 7px rgba(173, 255, 0, 0.9), 2.34973em -0.22759em 7px rgba(171, 255, 0, 0.9), 1.91526em 1.34176em 7px rgba(255, 43, 0, 0.9), 1.38525em 0.00808em 7px rgba(255, 61, 0, 0.9), 1.74952em 1.39254em 7px rgba(144, 255, 0, 0.9), 0.09206em 0.98889em 7px rgba(135, 0, 255, 0.9), -0.17015em 0.44404em 7px rgba(118, 255, 0, 0.9), 2.18053em 0.81869em 7px rgba(255, 0, 59, 0.9), 0.81934em 0.85446em 7px rgba(255, 45, 0, 0.9), -0.16317em -0.42015em 7px rgba(0, 255, 216, 0.9), -0.29268em 0.13496em 7px rgba(255, 0, 103, 0.9), -0.36774em -0.12157em 7px rgba(0, 240, 255, 0.9), 2.4811em 2.45035em 7px rgba(28, 255, 0, 0.9), 1.89915em 0.89525em 7px rgba(160, 255, 0, 0.9), 1.29215em 0.93259em 7px rgba(0, 255, 90, 0.9), 2.43643em 0.78015em 7px rgba(0, 48, 255, 0.9), -0.25425em -0.43694em 7px rgba(255, 0, 82, 0.9), -0.0087em 0.78875em 7px rgba(255, 208, 0, 0.9), 1.85971em 0.47819em 7px rgba(129, 255, 0, 0.9), 0.59806em 0.02456em 7px rgba(130, 0, 255, 0.9), 1.92274em 2.06643em 7px rgba(0, 255, 33, 0.9), 2.07097em 0.94621em 7px rgba(200, 255, 0, 0.9), 0.04843em 2.11549em 7px rgba(128, 255, 0, 0.9), 2.39558em 2.39657em 7px rgba(255, 30, 0, 0.9), -0.19409em 1.21038em 7px rgba(0, 35, 255, 0.9), 0.59134em 2.24977em 7px rgba(255, 0, 20, 0.9), 0.64934em 1.43765em 7px rgba(0, 255, 209, 0.9), 1.1914em 1.6309em 7px rgba(0, 167, 255, 0.9), 0.60321em 1.21052em 7px rgba(115, 255, 0, 0.9), 0.91174em 1.52086em 7px rgba(0, 255, 172, 0.9), 1.4009em 1.54372em 7px rgba(204, 255, 0, 0.9), -0.14469em 0.30747em 7px rgba(0, 255, 183, 0.9), 0.78348em 0.14914em 7px rgba(255, 0, 124, 0.9), 0.05864em 1.06336em 7px rgba(127, 255, 0, 0.9), 2.12638em -0.454em 7px rgba(255, 20, 0, 0.9), -0.42696em 0.13118em 7px rgba(0, 173, 255, 0.9), -0.21242em 0.58578em 7px rgba(168, 0, 255, 0.9), 0.95338em -0.28449em 7px rgba(0, 154, 255, 0.9), 2.41628em 0.92706em 7px rgba(255, 0, 105, 0.9), 0.87006em 1.47355em 7px rgba(0, 227, 255, 0.9), 1.88854em 1.74701em 7px rgba(227, 0, 255, 0.9);
   animation-duration: 42s;
   animation-delay: -23s; }
 
 head::after {
-  text-shadow: 0.92185em 1.20127em 7px rgba(0, 255, 51, 0.9), 1.91769em 1.33315em 7px rgba(181, 255, 0, 0.9), 1.31991em 2.16146em 7px rgba(144, 0, 255, 0.9), 2.25184em 0.06637em 7px rgba(255, 24, 0, 0.9), 2.1559em 0.69111em 7px rgba(164, 255, 0, 0.9), 0.06337em 1.50451em 7px rgba(0, 255, 61, 0.9), -0.06232em -0.18031em 7px rgba(255, 0, 7, 0.9), -0.19974em -0.46617em 7px rgba(213, 255, 0, 0.9), 1.05232em 1.98512em 7px rgba(255, 146, 0, 0.9), 0.33224em 1.39936em 7px rgba(0, 79, 255, 0.9), -0.34703em 0.48876em 7px rgba(0, 30, 255, 0.9), -0.16552em 1.49731em 7px rgba(104, 255, 0, 0.9), 1.66862em -0.37107em 7px rgba(34, 255, 0, 0.9), 1.41006em 2.0247em 7px rgba(0, 160, 255, 0.9), -0.39692em 1.21171em 7px rgba(0, 255, 45, 0.9), 1.67018em 1.20163em 7px rgba(0, 96, 255, 0.9), -0.33091em 2.19015em 7px rgba(255, 42, 0, 0.9), 1.3722em 0.31245em 7px rgba(0, 255, 129, 0.9), -0.47684em -0.41318em 7px rgba(0, 255, 231, 0.9), 1.30829em -0.11735em 7px rgba(255, 0, 39, 0.9), 0.13319em 0.62743em 7px rgba(0, 255, 227, 0.9), 2.24314em 1.55804em 7px rgba(0, 255, 115, 0.9), 0.47157em -0.13333em 7px rgba(255, 0, 94, 0.9), -0.21336em 1.47909em 7px rgba(0, 255, 147, 0.9), -0.23044em 1.45308em 7px rgba(255, 0, 81, 0.9), 2.08636em 1.96395em 7px rgba(129, 255, 0, 0.9), -0.0573em 2.44838em 7px rgba(146, 255, 0, 0.9), 2.46133em 0.83745em 7px rgba(255, 243, 0, 0.9), 1.19001em 2.37924em 7px rgba(117, 255, 0, 0.9), 0.28976em 1.35931em 7px rgba(163, 255, 0, 0.9), 0.44247em 1.43965em 7px rgba(221, 255, 0, 0.9), 1.86708em 1.04825em 7px rgba(242, 255, 0, 0.9), 0.56273em 1.88398em 7px rgba(160, 0, 255, 0.9), -0.35732em -0.19613em 7px rgba(255, 189, 0, 0.9), -0.34509em 2.04733em 7px rgba(53, 255, 0, 0.9), 0.39109em -0.40219em 7px rgba(223, 0, 255, 0.9), 1.21365em 2.07156em 7px rgba(9, 0, 255, 0.9), 1.26657em 1.71403em 7px rgba(35, 255, 0, 0.9), 1.68476em -0.15694em 7px rgba(255, 0, 122, 0.9), 0.08858em 1.35841em 7px rgba(0, 255, 122, 0.9), 1.71227em 0.21202em 7px rgba(0, 255, 190, 0.9);
+  text-shadow: 0.99506em 1.34683em 7px rgba(0, 219, 255, 0.9), 1.0035em 2.1095em 7px rgba(6, 0, 255, 0.9), 0.49784em -0.1549em 7px rgba(0, 220, 255, 0.9), 0.68403em -0.38851em 7px rgba(0, 217, 255, 0.9), 1.88212em 2.17256em 7px rgba(255, 226, 0, 0.9), 2.2049em 2.16458em 7px rgba(0, 255, 37, 0.9), 1.07008em 2.15916em 7px rgba(198, 255, 0, 0.9), 0.4786em 2.03662em 7px rgba(255, 0, 208, 0.9), 1.56048em 1.47442em 7px rgba(22, 0, 255, 0.9), 1.24397em 0.58216em 7px rgba(255, 0, 129, 0.9), 0.87552em -0.24437em 7px rgba(255, 123, 0, 0.9), 0.49573em 2.25577em 7px rgba(0, 13, 255, 0.9), -0.20738em 1.09765em 7px rgba(255, 0, 121, 0.9), 2.26167em 0.67939em 7px rgba(0, 103, 255, 0.9), 0.86667em 1.81905em 7px rgba(255, 157, 0, 0.9), 1.60671em -0.14468em 7px rgba(0, 255, 209, 0.9), 1.08465em 0.71132em 7px rgba(255, 0, 100, 0.9), 1.8755em 0.01617em 7px rgba(114, 255, 0, 0.9), 0.65385em 1.18709em 7px rgba(0, 255, 1, 0.9), -0.3264em 2.42056em 7px rgba(0, 110, 255, 0.9), 1.43322em -0.34126em 7px rgba(45, 0, 255, 0.9), 0.8829em 0.62249em 7px rgba(0, 255, 83, 0.9), 2.03895em 0.3098em 7px rgba(255, 158, 0, 0.9), -0.43588em 1.5013em 7px rgba(0, 253, 255, 0.9), 0.56003em -0.45725em 7px rgba(255, 0, 57, 0.9), -0.36791em 0.11278em 7px rgba(0, 255, 208, 0.9), -0.1997em 1.22891em 7px rgba(255, 10, 0, 0.9), 2.38292em -0.20253em 7px rgba(0, 255, 136, 0.9), 0.29106em 1.85955em 7px rgba(0, 255, 233, 0.9), -0.28093em 0.79002em 7px rgba(255, 3, 0, 0.9), 1.9551em -0.10272em 7px rgba(241, 255, 0, 0.9), 0.34315em 2.36677em 7px rgba(255, 63, 0, 0.9), 1.69228em 0.45542em 7px rgba(0, 50, 255, 0.9), 2.25682em 0.12705em 7px rgba(0, 121, 255, 0.9), -0.4946em 2.08654em 7px rgba(0, 255, 91, 0.9), 0.12087em 0.56933em 7px rgba(255, 142, 0, 0.9), 1.4133em 0.70115em 7px rgba(0, 255, 14, 0.9), 0.52772em 2.17874em 7px rgba(237, 0, 255, 0.9), 0.21769em -0.29559em 7px rgba(32, 255, 0, 0.9), 2.34805em 1.3388em 7px rgba(94, 0, 255, 0.9), 0.70971em 1.49363em 7px rgba(30, 255, 0, 0.9);
   animation-duration: 41s;
   animation-delay: -19s; }
 
@@ -55,17 +55,10 @@ head::after {
   to {
     transform: rotate(360deg) scale(18) translateX(20px); } }
 
-.alert {
-  background-color: #251935;
-  color: #FF0080;
-  font-size: 1rem;
-  font-weight: 400;
-  z-index: 2; }
-
 html {
   font-family: 'Cairo', sans-serif; }
 
-main {
+.main-index {
   color: #bb86fc;
   display: grid;
   position: relative;
@@ -106,10 +99,15 @@ h3 {
   text-align: center;
   font-weight: bold 900; }
 
+.instruct {
+  margin: 1rem; }
+
 p {
   margin: 3rem;
   font-size: 1rem;
-  text-align: center; }
+  text-align: center;
+  font-weight: 500;
+  color: #FF0080; }
 
 .menu-container {
   display: grid;
@@ -137,12 +135,13 @@ p {
   .menu-container a:hover {
     color: #FF0080; }
 
+/*Neon buttons */
 .general-ico {
+  color: #cf2095;
   margin-top: 2rem;
   -webkit-filter: drop-shadow(0.05em 0.05em 0.1em #FF0080);
   filter: drop-shadow(#FF0080); }
 
-/*Neon buttons */
 .neon-button {
   font-weight: 500;
   color: #cf2095;
@@ -195,65 +194,73 @@ p {
   opacity: 1; }
 
 .ui-button {
-  padding: 0.1em;
+  padding: 0.3em;
   text-align: center; }
 
-.buton {
-  display: flex;
-  border-radius: 3rem;
-  background-color: #332940;
-  color: #FF0080;
-  background: rgba(136, 136, 136, 0.05);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(11px);
-  -webkit-backdrop-filter: blur(11px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  transition: all 2s;
-  align-items: center;
-  justify-content: center;
-  align-content: center; }
-
-.buton:hover {
-  color: #FF0080;
-  -webkit-filter: drop-shadow(3px 3px 2px #FF0080);
-  filter: drop-shadow(#FF0080);
-  margin: 3px;
-  transform: scale(1.1, 1); }
-
-.butonMenu {
-  display: flex;
-  margin: 3rem; }
-
-.butonMenu:hover {
-  color: #FF0080;
-  -webkit-filter: drop-shadow(3px 3px 2px #FF0080);
-  filter: drop-shadow(#FF0080); }
-
-a {
-  list-style: none;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #FF0080;
-  font-size: 1.2rem;
-  font-family: 'Cairo', sans-serif;
-  text-decoration: none;
-  color: whitesmoke;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem; }
+.sube:active {
+  -webkit-animation: fadeOutUp 2s;
+  animation: fadeOutUp 2s; }
 
 input {
   background: none; }
 
-header {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-bottom: 4rem;
+.nada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
-  top: 0;
+  z-index: 1;
+  -webkit-animation: zoomInRight 2s;
+  animation: zoomInRight 2s; }
+
+@media only screen and (max-width: 1065px) {
+  .main-index {
+    display: flex;
+    flex-direction: column; }
+    .main-index .landing {
+      grid-template-columns: 1fr;
+      grid-template-areas: "landingtext";
+      margin-top: -8rem;
+      margin-bottom: 5rem; }
+      .main-index .landing .landing-text {
+        padding-top: 5rem;
+        padding-bottom: 10rem; }
+      .main-index .landing .landingimg {
+        display: none; }
+    .main-index .contador-container {
+      display: flex;
+      flex-direction: column;
+      margin: 2rem;
+      margin-top: 3rem; }
+      .main-index .contador-container h2 {
+        font-size: 2.5rem;
+        overflow: hidden; }
+  .app-container {
+    display: flex;
+    flex-direction: column; }
+    .app-container h2 {
+      font-size: 2.5rem;
+      overflow: hidden; }
+  .neon-button::before {
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.2); }
+  h1 {
+    font-size: 10vw;
+    overflow: hidden; }
+  h2 {
+    font-size: 5vw;
+    overflow: hidden; } }
+
+@media only screen and (max-width: 500px) {
+  .menu-container {
+    margin: 1rem; }
+  .formu-container {
+    margin: 1rem; } }
+
+@media only screen and (max-width: 960px) {
+  a {
+    font-size: 5vw; } }
+
+header {
   position: sticky;
   z-index: 3;
   /* MENU DE NAVEGACION */ }
@@ -264,64 +271,128 @@ header {
     -webkit-filter: drop-shadow(0.2em 0.2em 0.2em #000000);
     filter: drop-shadow(#000000);
     -webkit-animation: jackInTheBox 2s;
-    animation: jackInTheBox 2s;
-    margin: 0.5rem; }
-  header .custom-nav {
-    background-color: #332940;
+    animation: jackInTheBox 2s; }
+  header .menu {
     display: flex;
     flex-direction: row;
     position: relative;
-    justify-content: space-around;
-    margin: 3rem;
-    margin-top: 1rem;
-    margin-left: 7rem;
-    border-radius: 3rem;
-    background: rgba(187, 134, 252, 0.05);
+    justify-content: space-between;
+    margin: 1rem;
+    margin-top: 0rem;
+    margin-right: 3rem; }
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0.5rem;
+  margin-right: 3rem;
+  border-radius: 3rem;
+  background: rgba(187, 134, 252, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border: 1px solid rgba(255, 255, 255, 0.18); }
+  .main-menu ul::marker {
+    display: none; }
+  .main-menu li {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: fadeInDown 2s;
+    animation: fadeInDown 2s; }
+    .main-menu li a {
+      font-size: 1.5rem;
+      margin-right: 2rem;
+      display: inline-block;
+      text-decoration: none;
+      color: #FF0080;
+      font-weight: 300; }
+    .main-menu li a:hover {
+      filter: drop-shadow(#cf2095);
+      -webkit-filter: drop-shadow(3px 3px 2px #FF0080);
+      -webkit-animation: flash 4s;
+      animation: flash 4s; }
+    .main-menu li a:active {
+      -webkit-animation: fadeOutUp 2s;
+      animation: fadeOutUp 2s; }
+  .main-menu li:active {
+    -webkit-animation: fadeOutUp 2s;
+    animation: fadeOutUp 2s; }
+
+ul.show {
+  top: 65px; }
+
+.open-menu {
+  font-size: 3rem;
+  margin: 1rem;
+  display: none;
+  cursor: pointer;
+  color: #FF0080;
+  -webkit-filter: drop-shadow(0.2em 0.2em 0.2em #000000);
+  filter: drop-shadow(#000000);
+  position: sticky;
+  z-index: 3;
+  top: 0; }
+
+.close-menu {
+  font-size: 3rem;
+  display: none;
+  cursor: pointer;
+  color: #FF0080; }
+
+@media only screen and (max-width: 960px) {
+  .main-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: rgba(30, 22, 41, 0.52);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(11px);
     -webkit-backdrop-filter: blur(11px);
-    border: 1px solid rgba(255, 255, 255, 0.18); }
-  header .nav-item {
-    font-size: 1rem;
-    justify-content: space-between; }
-  header .list {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.5rem;
-    align-content: center;
-    text-align: center;
-    margin: auto auto;
-    position: relative;
-    -webkit-animation: fadeInDown 2s;
-    animation: fadeInDown 2s; }
-  header .itemList a {
-    list-style: none;
-    display: flex;
-    align-content: space-around;
-    margin: 1rem;
-    justify-content: space-around;
-    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: top 1s ease;
+    display: none; }
+    .main-menu .close-menu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 2rem;
+      color: #FF0080; }
+    .main-menu li a {
+      font-weight: 400;
+      -webkit-filter: drop-shadow(0.2em 0.2em 0.2em #000000);
+      filter: drop-shadow(#000000);
+      -webkit-animation: fadeInDown 2s;
+      animation: fadeInDown 2s; }
+    .main-menu li a:hover {
+      background: none;
+      color: #FF0080;
+      font-size: 1.6rem; }
+  .open-menu {
+    display: block;
     color: #FF0080;
-    font-size: 1.2rem;
-    font-family: 'Cairo', sans-serif;
-    font-weight: 400; }
-  header nav a:hover {
-    -webkit-filter: drop-shadow(3px 3px 2px #FF0080);
-    filter: drop-shadow(#FF0080);
-    -webkit-animation: flash 3s;
-    animation: flash 3s; }
-  header nav a:focus {
-    -webkit-animation: fadeOutUp 1s;
-    animation: fadeOutUp 1s; }
-
-@media (max-width: 768px) {
-  main {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr; }
-  .list {
-    list-style: none;
-    text-decoration: none; } }
+    font-size: 3rem;
+    position: sticky;
+    z-index: 3;
+    top: 0; }
+  .close-menu {
+    display: block;
+    position: absolute;
+    color: #FF0080; }
+  li a:hover {
+    background: none;
+    font-size: 1.6rem; } }
 
 /* LANDING   */
 .landing {
@@ -329,7 +400,7 @@ header {
   grid-area: landing;
   color: #bb86fc;
   background-color: #1F1B24;
-  margin-top: -9.2rem;
+  margin-top: -7rem;
   margin-bottom: 5rem;
   position: relative;
   justify-self: center;
@@ -377,6 +448,10 @@ header {
   justify-content: center;
   justify-self: center;
   margin-top: 3rem; }
+
+@media only screen and (max-width: 1300px) {
+  .landingimg {
+    margin-top: 10rem; } }
 
 svg#freepik_stories-qr-code:not(.animated)
 .animated {
@@ -475,10 +550,13 @@ svg#freepik_stories-qr-code.animated #freepik--Wall--inject-2 {
   display: flex;
   align-items: center;
   justify-self: center;
-  margin: 2rem;
+  margin: 1rem;
   -webkit-animation: bounceInDown 2s;
   animation: bounceInDown 2s;
-  transition: all 2s; }
+  transition: all 2s;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px); }
 
 .qrimg {
   width: 15rem;
@@ -596,6 +674,9 @@ select {
 
 .form-check {
   text-align: left; }
+
+.fa-history {
+  color: #cf2095; }
 
 /* PINTA */
 .fa-glass-martini-alt {
@@ -783,6 +864,18 @@ select {
   margin: 1rem; }
 
 /* QUEES */
+.qrarch {
+  justify-self: center;
+  align-items: center;
+  width: 40%;
+  min-width: 25rem;
+  opacity: 0.8;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 5rem; }
+
 table {
   display: flex;
   text-align: center;
@@ -803,7 +896,10 @@ table {
     -webkit-backdrop-filter: blur(11px);
     border: 1px solid rgba(255, 255, 255, 0.18); }
   table td {
+    color: #cf2095;
+    font-weight: 500;
     font-size: 1rem;
+    filter: drop-shadow(black);
     padding: 0.5rem;
     background-color: #332940;
     background: rgba(187, 134, 252, 0.05);
@@ -879,52 +975,3 @@ footer {
   filter: none;
   -webkit-animation: flash 4s;
   animation: flash 4s; }
-
-@media (max-width: 900px) {
-  main {
-    display: flex;
-    flex-direction: column; }
-    main .landing {
-      grid-template-columns: 1fr;
-      grid-template-areas: "landingtext";
-      margin-top: -8rem;
-      margin-bottom: 5rem; }
-      main .landing .landing-text {
-        padding-top: 5rem;
-        padding-bottom: 10rem; }
-      main .landing .landingimg {
-        display: none; }
-  .app-container {
-    display: flex;
-    flex-direction: column; }
-    .app-container h2 {
-      font-size: 2.5rem;
-      overflow: hidden; }
-  .contador-container {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem;
-    margin-top: 5rem; }
-    .contador-container h2 {
-      font-size: 2.5rem;
-      overflow: hidden; }
-  .neon-button::before {
-    transform: perspective(1em) rotateX(40deg) scale(1, 0.2); }
-  h1 {
-    font-size: 10vw;
-    overflow: hidden; }
-  h2 {
-    font-size: 5vw;
-    overflow: hidden; } }
-
-@media only screen and (max-width: 500px) {
-  .custom-nav {
-    margin-left: 0; }
-  .menu-container {
-    margin: 1rem; }
-  .formu-container {
-    margin: 1rem; } }
-
-@media only screen and (max-width: 768px) {
-  a {
-    font-size: 5vw; } }
