@@ -182,11 +182,11 @@ p {
   }
 }
 
-/*Neon buttons */
+/*Neon icons & buttons */
 $neon: 	#cf2095;
 
 .general-ico {
-  color: #cf2095;
+  color: $neon;
   margin-top: 2rem;
   -webkit-filter: drop-shadow(0.05em 0.05em 0.1em #FF0080);   
   filter: drop-shadow(#FF0080);

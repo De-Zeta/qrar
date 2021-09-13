@@ -82,6 +82,12 @@
 
 }
 
+@media only screen and (max-width: 960px) {
+	a {
+		font-size: 5vw;
+	}
+}
+
 @media only screen and (max-width: 500px) {
 
 
@@ -96,11 +102,16 @@
 
 	}
 
+	.my-input {
+		color: white;
+		border-radius: 1rem;
+		font-size: 1.5rem;
+		background: none;
+		box-sizing: border-box;
+		width: 75vw;
 
-}
-
-@media only screen and (max-width: 960px) {
-	a {
-		font-size: 5vw;
 	}
 }
+
+
+

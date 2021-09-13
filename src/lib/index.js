@@ -19,7 +19,9 @@ function makeCode () {
 
 makeCode();
 
-var image = document.getElementById('qrcode');
+var image = document.getElementById('qrcode')
+
+image.style.border = '12px solid white';
 
 
 function PrintElem(elem)
