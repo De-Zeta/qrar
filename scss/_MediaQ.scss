@@ -109,8 +109,13 @@
 		font-size: 1.5rem;
 		background: none;
 		box-sizing: border-box;
-		width: 75vw;
 
+	}
+
+	.app-container {
+		.my-input {
+			width: 80vw;
+		}
 	}
 }
 
