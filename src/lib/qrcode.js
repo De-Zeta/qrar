@@ -195,7 +195,7 @@ var QRCode;
 				return el;
 			}
 
-			var svg = makeSVG("svg" , {'viewBox': '0 0 ' + String(nCount) + " " + String(nCount), 'width': '100%', 'height': '100%', 'fill': _htOption.colorLight});
+			var svg = makeSVG("svg" , {'viewBox': '0 0 ' + String(nCount) + " " + String(nCount), 'width': '100%', 'height': '100%', 'border': '12px solid white', 'fill': _htOption.colorLight});
 			svg.setAttributeNS("http://www.w3.org/2000/xmlns/", "xmlns:xlink", "http://www.w3.org/1999/xlink");
 			_el.appendChild(svg);
 
@@ -239,7 +239,7 @@ var QRCode;
 			var nCount = oQRCode.getModuleCount();
 			var nWidth = Math.floor(_htOption.width / nCount);
 			var nHeight = Math.floor(_htOption.height / nCount);
-			var aHTML = ['<table style="border:0;border-collapse:collapse;">'];
+			var aHTML = ['<table style="12px solid white;border-collapse:collapse;">'];
 			
 			for (var row = 0; row < nCount; row++) {
 				aHTML.push('<tr>');
@@ -355,6 +355,7 @@ var QRCode;
 		
 			this._htOption = htOption;
 			this._elCanvas = document.createElement("canvas");
+			this._elCanvas.border = '12px solid white'
 			this._elCanvas.width = htOption.width;
 			this._elCanvas.height = htOption.height;
 			el.appendChild(this._elCanvas);

@@ -8,13 +8,18 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 });
 
 
-
+let count = 0
+document.getElementById('count').innerHTML =`  ${count} <i class="fas fa-comment"></i>`
 
 function makeCode () {		
 	var elText = document.getElementById("text");
 	
-	
 	qrcode.makeCode(elText.value);
+    
+    count++
+    document.getElementById('count').innerHTML =`  ${count} <i class="fas fa-comment"></i>`
+    
+
 }
 
 makeCode();
@@ -61,6 +66,26 @@ const close = () => {
     mainMenu.style.margin = '0'
 }
 
+const setSrc = () => {
+
+    const qrImg = document.getElementById('qrcode').getElementsByTagName('img')[0].getAttribute('src')
+
+    document.getElementById('qrcode').getElementsByTagName('img')[0].style.border = '12px solid white'
+    document.getElementById('get-image').setAttribute('href', qrImg)
+    console.log(qrImg)
+}
+
+
+
+
+
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click',close);
 // End menu responsive
+
+const createQr = document.getElementById('create')
+createQr.addEventListener('click', setSrc)
+
+
+
+

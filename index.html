@@ -109,8 +109,8 @@
                  <div id="qrcode" class="qr"></div>
 
                     <div class="button-box">
-                    <a class="neon-button ui-button" onclick="makeCode(), box()">Crear</a>
-                    <a class="neon-button ui-button" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoA…arIK+bl67zWpdZ58r/Rvapq8Xngv1hwAAAABJRU5ErkJggg==" download="qrcode.png">Imprimir</a>
+                    <a class="neon-button ui-button" id="create" onclick="makeCode(), box()">Crear</a>
+                    <a class="neon-button ui-button" id="get-image" href="" download="qrcode.png">Descargar</a>
                   </div>
                 </div>
 
@@ -118,7 +118,7 @@
                 <div class="contador-container">
 
                     <h2> Contador </h2> <!-- Container: contador  -->
-                        <h3> 300 <i class="fas fa-comment"></i></h3> 
+                        <h3 id='count'> 0 </h3> 
                         <p> QR generados hoy! </p> <!-- contador  -->
 
                 </div>
